@@ -5,7 +5,7 @@ import type { OwnedState, UpgradeCost } from './types';
 export function calculateShortfallToMax(
   rupeesInWallet: number,
   owned: OwnedState,
-  costs: UpgradeCost[] = allCosts
+  costs: UpgradeCost[] = allCosts as UpgradeCost[]
 ) {
   //no target levels passed, defaults to each piece's maxLevel
   return calculateShortfall(rupeesInWallet, owned, costs);
