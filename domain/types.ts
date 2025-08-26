@@ -45,9 +45,11 @@ export interface UpgradeCost {
  * OwnedState is what we will save/load for the player
  * -materials: how many of each material the player owns
  * -armorLevels: current level for each armor piece
+ * -rupees: how many rupees are currently in my wallet
  * `Record<Key, Value>` models sparse dictionaries with string keys
  */
 export interface OwnedState {
   materials: Record<MaterialId, number>;
   armorLevels: Record<ArmorId, Level>;
+  rupees: number;
 }
