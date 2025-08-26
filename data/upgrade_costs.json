@@ -1,0 +1,3285 @@
+[
+  {
+    "armorId": "hylian-hood",
+    "level": 1,
+    "requirements": [{ "materialId": "bokoblin-horn", "quantity": 5 }]
+  },
+  {
+    "armorId": "hylian-hood",
+    "level": 2,
+    "requirements": [
+      { "materialId": "blue-bokoblin-horn", "quantity": 5 },
+      { "materialId": "bokoblin-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "hylian-hood",
+    "level": 3,
+    "requirements": [
+      { "materialId": "amber", "quantity": 20 },
+      { "materialId": "bokoblin-guts", "quantity": 3 },
+      { "materialId": "black-bokoblin-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "hylian-hood",
+    "level": 4,
+    "requirements": [
+      { "materialId": "bokoblin-guts", "quantity": 5 },
+      { "materialId": "amber", "quantity": "30" },
+      { "materialId": "silver-bokoblin-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "hylian-tunic",
+    "level": 1,
+    "requirements": [{ "materialId": "bokoblin-horn", "quantity": 5 }]
+  },
+  {
+    "armorId": "hylian-tunic",
+    "level": 2,
+    "requirements": [
+      { "materialId": "blue-bokoblin-horn", "quantity": 5 },
+      { "materialId": "bokoblin-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "hylian-tunic",
+    "level": 3,
+    "requirements": [
+      { "materialId": "bokoblin-guts", "quantity": 3 },
+      { "materialId": "black-bokoblin-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "hylian-tunic",
+    "level": 4,
+    "requirements": [
+      { "materialId": "bokoblin-guts", "quantity": 5 },
+      { "materialId": "amber", "quantity": "30" },
+      { "materialId": "silver-bokoblin-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "hylian-trousers",
+    "level": 1,
+    "requirements": [{ "materialId": "bokoblin-horn", "quantity": 5 }]
+  },
+  {
+    "armorId": "hylian-trousers",
+    "level": 2,
+    "requirements": [
+      { "materialId": "blue-bokoblin-horn", "quantity": 5 },
+      { "materialId": "bokoblin-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "hylian-trousers",
+    "level": 3,
+    "requirements": [
+      { "materialId": "bokoblin-guts", "quantity": 3 },
+      { "materialId": "black-bokoblin-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "hylian-trousers",
+    "level": 4,
+    "requirements": [
+      { "materialId": "bokoblin-guts", "quantity": 5 },
+      { "materialId": "amber", "quantity": "30" },
+      { "materialId": "silver-bokoblin-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-wild",
+    "level": 1,
+    "requirements": [
+      { "materialId": "acorn", "quantity": 10 },
+      { "materialId": "faroshs-scale", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-wild",
+    "level": 2,
+    "requirements": [
+      { "materialId": "courser-bee-honey", "quantity": 5 },
+      { "materialId": "faroshs-claw", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-wild",
+    "level": 3,
+    "requirements": [
+      { "materialId": "energetic-rhino-beetle", "quantity": 3 },
+      { "materialId": "shard-of-faroshs-fang", "quantity": 2 },
+      { "materialId": "shard-of-faroshs-spike", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-wild",
+    "level": 4,
+    "requirements": [
+      { "materialId": "star-fragment", "quantity": 3 },
+      { "materialId": "faroshs-horn", "quantity": 2 },
+      { "materialId": "shard-of-faroshs-spike", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-wild",
+    "level": 1,
+    "requirements": [
+      { "materialId": "acorn", "quantity": 10 },
+      { "materialId": "faroshs-scale", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-wild",
+    "level": 2,
+    "requirements": [
+      { "materialId": "courser-bee-honey", "quantity": 5 },
+      { "materialId": "faroshs-claw", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-wild",
+    "level": 3,
+    "requirements": [
+      { "materialId": "energetic-rhino-beetle", "quantity": 3 },
+      { "materialId": "shard-of-faroshs-fang", "quantity": 2 },
+      { "materialId": "shard-of-faroshs-spike", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-wild",
+    "level": 4,
+    "requirements": [
+      { "materialId": "star-fragment", "quantity": 3 },
+      { "materialId": "faroshs-horn", "quantity": 2 },
+      { "materialId": "shard-of-faroshs-spike", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-wild",
+    "level": 1,
+    "requirements": [
+      { "materialId": "acorn", "quantity": 10 },
+      { "materialId": "faroshs-scale", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-wild",
+    "level": 2,
+    "requirements": [
+      { "materialId": "courser-bee-honey", "quantity": 5 },
+      { "materialId": "faroshs-claw", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-wild",
+    "level": 3,
+    "requirements": [
+      { "materialId": "energetic-rhino-beetle", "quantity": 3 },
+      { "materialId": "shard-of-faroshs-fang", "quantity": 2 },
+      { "materialId": "shard-of-faroshs-spike", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-wild",
+    "level": 4,
+    "requirements": [
+      { "materialId": "star-fragment", "quantity": 3 },
+      { "materialId": "faroshs-horn", "quantity": 2 },
+      { "materialId": "shard-of-faroshs-spike", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "zora-helm",
+    "level": 1,
+    "requirements": [{ "materialId": "lizalfos-horn", "quantity": 3 }]
+  },
+  {
+    "armorId": "zora-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "hyrule-bass", "quantity": 5 },
+      { "materialId": "lizalfos-talon", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zora-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "hearty-bass", "quantity": 3 },
+      { "materialId": "lizalfos-tail", "quantity": 3 },
+      { "materialId": "blue-lizalfos-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zora-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "black-lizalfos-horn", "quantity": 5 },
+      { "materialId": "blue-lizalfos-tail", "quantity": 5 },
+      { "materialId": "opal", "quantity": 20 }
+    ]
+  },
+  {
+    "armorId": "zora-armor",
+    "level": 1,
+    "requirements": [{ "materialId": "lizalfos-horn", "quantity": 3 }]
+  },
+  {
+    "armorId": "zora-armor",
+    "level": 2,
+    "requirements": [
+      { "materialId": "hyrule-bass", "quantity": 5 },
+      { "materialId": "lizalfos-talon", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zora-armor",
+    "level": 3,
+    "requirements": [
+      { "materialId": "hearty-bass", "quantity": 3 },
+      { "materialId": "lizalfos-tail", "quantity": 3 },
+      { "materialId": "blue-lizalfos-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zora-armor",
+    "level": 4,
+    "requirements": [
+      { "materialId": "black-lizalfos-horn", "quantity": 5 },
+      { "materialId": "blue-lizalfos-tail", "quantity": 5 },
+      { "materialId": "opal", "quantity": 20 }
+    ]
+  },
+  {
+    "armorId": "zora-greaves",
+    "level": 1,
+    "requirements": [{ "materialId": "lizalfos-horn", "quantity": 3 }]
+  },
+  {
+    "armorId": "zora-greaves",
+    "level": 2,
+    "requirements": [
+      { "materialId": "hyrule-bass", "quantity": 5 },
+      { "materialId": "lizalfos-talon", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zora-greaves",
+    "level": 3,
+    "requirements": [
+      { "materialId": "hearty-bass", "quantity": 3 },
+      { "materialId": "lizalfos-tail", "quantity": 3 },
+      { "materialId": "blue-lizalfos-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zora-greaves",
+    "level": 4,
+    "requirements": [
+      { "materialId": "black-lizalfos-horn", "quantity": 5 },
+      { "materialId": "blue-lizalfos-tail", "quantity": 5 },
+      { "materialId": "opal", "quantity": 20 }
+    ]
+  },
+  {
+    "armorId": "desert-voe-headband",
+    "level": 1,
+    "requirements": [{ "materialId": "white-chuchu-jelly", "quantity": 3 }]
+  },
+  {
+    "armorId": "desert-voe-headband",
+    "level": 2,
+    "requirements": [
+      { "materialId": "white-chuchu-jelly", "quantity": 5 },
+      { "materialId": "cool-saffilina", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "desert-voe-headband",
+    "level": 3,
+    "requirements": [
+      { "materialId": "chillshroom", "quantity": 3 },
+      { "materialId": "ice-keese-wing", "quantity": 5 },
+      { "materialId": "icebreath-lizalfos-tail", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "desert-voe-headband",
+    "level": 4,
+    "requirements": [
+      { "materialId": "icebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "icebreath-lizalfos-tail", "quantity": 10 },
+      { "materialId": "sapphire", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "desert-voe-spaulder",
+    "level": 1,
+    "requirements": [{ "materialId": "white-chuchu-jelly", "quantity": 3 }]
+  },
+  {
+    "armorId": "desert-voe-spaulder",
+    "level": 2,
+    "requirements": [
+      { "materialId": "white-chuchu-jelly", "quantity": 5 },
+      { "materialId": "cool-saffilina", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "desert-voe-spaulder",
+    "level": 3,
+    "requirements": [
+      { "materialId": "chillshroom", "quantity": 3 },
+      { "materialId": "ice-keese-wing", "quantity": 5 },
+      { "materialId": "icebreath-lizalfos-tail", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "desert-voe-spaulder",
+    "level": 4,
+    "requirements": [
+      { "materialId": "icebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "icebreath-lizalfos-tail", "quantity": 10 },
+      { "materialId": "sapphire", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "desert-voe-trousers",
+    "level": 1,
+    "requirements": [{ "materialId": "white-chuchu-jelly", "quantity": 3 }]
+  },
+  {
+    "armorId": "desert-voe-trousers",
+    "level": 2,
+    "requirements": [
+      { "materialId": "white-chuchu-jelly", "quantity": 5 },
+      { "materialId": "cool-saffilina", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "desert-voe-trousers",
+    "level": 3,
+    "requirements": [
+      { "materialId": "chillshroom", "quantity": 3 },
+      { "materialId": "ice-keese-wing", "quantity": 5 },
+      { "materialId": "icebreath-lizalfos-tail", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "desert-voe-trousers",
+    "level": 4,
+    "requirements": [
+      { "materialId": "icebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "icebreath-lizalfos-tail", "quantity": 10 },
+      { "materialId": "sapphire", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "snowquill-headdress",
+    "level": 1,
+    "requirements": [{ "materialId": "red-chuchu-jelly", "quantity": 3 }]
+  },
+  {
+    "armorId": "snowquill-headdress",
+    "level": 2,
+    "requirements": [
+      { "materialId": "red-chuchu-jelly", "quantity": 5 },
+      { "materialId": "warm-safflina", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "snowquill-headdress",
+    "level": 3,
+    "requirements": [
+      { "materialId": "sunshroom", "quantity": 5 },
+      { "materialId": "fire-keese-wing", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "snowquill-headdress",
+    "level": 4,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "snowquill-tunic",
+    "level": 1,
+    "requirements": [{ "materialId": "red-chuchu-jelly", "quantity": 3 }]
+  },
+  {
+    "armorId": "snowquill-tunic",
+    "level": 2,
+    "requirements": [
+      { "materialId": "red-chuchu-jelly", "quantity": 5 },
+      { "materialId": "warm-safflina", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "snowquill-tunic",
+    "level": 3,
+    "requirements": [
+      { "materialId": "sunshroom", "quantity": 5 },
+      { "materialId": "fire-keese-wing", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "snowquill-tunic",
+    "level": 4,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "snowquill-trousers",
+    "level": 1,
+    "requirements": [{ "materialId": "red-chuchu-jelly", "quantity": 3 }]
+  },
+  {
+    "armorId": "snowquill-trousers",
+    "level": 2,
+    "requirements": [
+      { "materialId": "red-chuchu-jelly", "quantity": 5 },
+      { "materialId": "warm-safflina", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "snowquill-trousers",
+    "level": 3,
+    "requirements": [
+      { "materialId": "sunshroom", "quantity": 5 },
+      { "materialId": "fire-keese-wing", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "snowquill-trousers",
+    "level": 4,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "flamebreaker-helm",
+    "level": 1,
+    "requirements": [{ "materialId": "moblin-horn", "quantity": 3 }]
+  },
+  {
+    "armorId": "flamebreaker-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "moblin-fang", "quantity": 5 },
+      { "materialId": "fireproof-lizard", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "flamebreaker-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "blue-moblin-horn", "quantity": 5 },
+      { "materialId": "flint", "quantity": 15 },
+      { "materialId": "smotherwing-butterfly", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "flamebreaker-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "firebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 10 },
+      { "materialId": "ruby", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "flamebreaker-armor",
+    "level": 1,
+    "requirements": [{ "materialId": "moblin-horn", "quantity": 3 }]
+  },
+  {
+    "armorId": "flamebreaker-armor",
+    "level": 2,
+    "requirements": [
+      { "materialId": "moblin-fang", "quantity": 5 },
+      { "materialId": "fireproof-lizard", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "flamebreaker-armor",
+    "level": 3,
+    "requirements": [
+      { "materialId": "blue-moblin-horn", "quantity": 5 },
+      { "materialId": "flint", "quantity": 15 },
+      { "materialId": "smotherwing-butterfly", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "flamebreaker-armor",
+    "level": 4,
+    "requirements": [
+      { "materialId": "firebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 10 },
+      { "materialId": "ruby", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "flamebreaker-boots",
+    "level": 1,
+    "requirements": [{ "materialId": "moblin-horn", "quantity": 3 }]
+  },
+  {
+    "armorId": "flamebreaker-boots",
+    "level": 2,
+    "requirements": [
+      { "materialId": "moblin-fang", "quantity": 5 },
+      { "materialId": "fireproof-lizard", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "flamebreaker-boots",
+    "level": 3,
+    "requirements": [
+      { "materialId": "blue-moblin-horn", "quantity": 5 },
+      { "materialId": "flint", "quantity": 15 },
+      { "materialId": "smotherwing-butterfly", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "flamebreaker-boots",
+    "level": 4,
+    "requirements": [
+      { "materialId": "firebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 10 },
+      { "materialId": "ruby", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "stealth-mask",
+    "level": 1,
+    "requirements": [{ "materialId": "blue-nightshade", "quantity": 3 }]
+  },
+  {
+    "armorId": "stealth-mask",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sunset-firefly", "quantity": 5 },
+      { "materialId": "blue-nightshade", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "stealth-mask",
+    "level": 3,
+    "requirements": [
+      { "materialId": "silent-shroom", "quantity": 8 },
+      { "materialId": "sneaky-river-snail", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "stealth-mask",
+    "level": 4,
+    "requirements": [
+      { "materialId": "sundelion", "quantity": 10 },
+      { "materialId": "stealthfin-trout", "quantity": 10 },
+      { "materialId": "silent-princess", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "stealth-chest-guard",
+    "level": 1,
+    "requirements": [{ "materialId": "blue-nightshade", "quantity": 3 }]
+  },
+  {
+    "armorId": "stealth-chest-guard",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sunset-firefly", "quantity": 5 },
+      { "materialId": "blue-nightshade", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "stealth-chest-guard",
+    "level": 3,
+    "requirements": [
+      { "materialId": "silent-shroom", "quantity": 8 },
+      { "materialId": "sneaky-river-snail", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "stealth-chest-guard",
+    "level": 4,
+    "requirements": [
+      { "materialId": "sundelion", "quantity": 10 },
+      { "materialId": "stealthfin-trout", "quantity": 10 },
+      { "materialId": "silent-princess", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "stealth-tights",
+    "level": 1,
+    "requirements": [{ "materialId": "blue-nightshade", "quantity": 3 }]
+  },
+  {
+    "armorId": "stealth-tights",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sunset-firefly", "quantity": 5 },
+      { "materialId": "blue-nightshade", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "stealth-tights",
+    "level": 3,
+    "requirements": [
+      { "materialId": "silent-shroom", "quantity": 8 },
+      { "materialId": "sneaky-river-snail", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "stealth-tights",
+    "level": 4,
+    "requirements": [
+      { "materialId": "sundelion", "quantity": 10 },
+      { "materialId": "stealthfin-trout", "quantity": 10 },
+      { "materialId": "silent-princess", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "climbers-bandana",
+    "level": 1,
+    "requirements": [
+      { "materialId": "keese-wing", "quantity": 3 },
+      { "materialId": "rushroom", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "climbers-bandana",
+    "level": 2,
+    "requirements": [
+      { "materialId": "electric-keese-wing", "quantity": 5 },
+      { "materialId": "hightail-lizard", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "climbers-bandana",
+    "level": 3,
+    "requirements": [
+      { "materialId": "hot-footed-frog", "quantity": 10 },
+      { "materialId": "ice-keese-wing", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "climbers-bandana",
+    "level": 4,
+    "requirements": [
+      { "materialId": "swift-violet", "quantity": 20 },
+      { "materialId": "fire-keese-wing", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "climbing-gear",
+    "level": 1,
+    "requirements": [
+      { "materialId": "keese-wing", "quantity": 3 },
+      { "materialId": "rushroom", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "climbing-gear",
+    "level": 2,
+    "requirements": [
+      { "materialId": "electric-keese-wing", "quantity": 5 },
+      { "materialId": "hightail-lizard", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "climbing-gear",
+    "level": 3,
+    "requirements": [
+      { "materialId": "hot-footed-frog", "quantity": 10 },
+      { "materialId": "ice-keese-wing", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "climbing-gear",
+    "level": 4,
+    "requirements": [
+      { "materialId": "swift-violet", "quantity": 20 },
+      { "materialId": "fire-keese-wing", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "climbing-boots",
+    "level": 1,
+    "requirements": [
+      { "materialId": "keese-wing", "quantity": 3 },
+      { "materialId": "rushroom", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "climbing-boots",
+    "level": 2,
+    "requirements": [
+      { "materialId": "electric-keese-wing", "quantity": 5 },
+      { "materialId": "hightail-lizard", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "climbing-boots",
+    "level": 3,
+    "requirements": [
+      { "materialId": "hot-footed-frog", "quantity": 10 },
+      { "materialId": "ice-keese-wing", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "climbing-boots",
+    "level": 4,
+    "requirements": [
+      { "materialId": "swift-violet", "quantity": 20 },
+      { "materialId": "fire-keese-wing", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "radiant-mask",
+    "level": 1,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 10 },
+      { "materialId": "bokoblin-guts", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "radiant-mask",
+    "level": 2,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 15 },
+      { "materialId": "moblin-guts", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "radiant-mask",
+    "level": 3,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 20 },
+      { "materialId": "horriblin-guts", "quantity": 3 },
+      { "materialId": "gibdo-bone", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "radiant-mask",
+    "level": 4,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 30 },
+      { "materialId": "lynel-guts", "quantity": 3 },
+      { "materialId": "molduga-jaw", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "radiant-shirt",
+    "level": 1,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 10 },
+      { "materialId": "bokoblin-guts", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "radiant-shirt",
+    "level": 2,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 15 },
+      { "materialId": "moblin-guts", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "radiant-shirt",
+    "level": 3,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 20 },
+      { "materialId": "horriblin-guts", "quantity": 3 },
+      { "materialId": "gibdo-bone", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "radiant-shirt",
+    "level": 4,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 30 },
+      { "materialId": "lynel-guts", "quantity": 3 },
+      { "materialId": "molduga-jaw", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "radiant-tights",
+    "level": 1,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 10 },
+      { "materialId": "bokoblin-guts", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "radiant-tights",
+    "level": 2,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 15 },
+      { "materialId": "moblin-guts", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "radiant-tights",
+    "level": 3,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 20 },
+      { "materialId": "horriblin-guts", "quantity": 3 },
+      { "materialId": "gibdo-bone", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "radiant-tights",
+    "level": 4,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 30 },
+      { "materialId": "lynel-guts", "quantity": 3 },
+      { "materialId": "molduga-jaw", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-helm",
+    "level": 1,
+    "requirements": [
+      { "materialId": "chuchu-jelly", "quantity": 5 },
+      { "materialId": "bokoblin-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "keese-eyeball", "quantity": 5 },
+      { "materialId": "moblin-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "flint", "quantity": 30 },
+      { "materialId": "lizalfos-tail", "quantity": 3 },
+      { "materialId": "hinox-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "lynel-hoof", "quantity": 5 },
+      { "materialId": "lynel-guts", "quantity": 5 },
+      { "materialId": "amber", "quantity": 30 }
+    ]
+  },
+  {
+    "armorId": "soldiers-armor",
+    "level": 1,
+    "requirements": [
+      { "materialId": "chuchu-jelly", "quantity": 5 },
+      { "materialId": "bokoblin-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-armor",
+    "level": 2,
+    "requirements": [
+      { "materialId": "keese-eyeball", "quantity": 5 },
+      { "materialId": "moblin-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-armor",
+    "level": 3,
+    "requirements": [
+      { "materialId": "flint", "quantity": 30 },
+      { "materialId": "lizalfos-tail", "quantity": 3 },
+      { "materialId": "hinox-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-armor",
+    "level": 4,
+    "requirements": [
+      { "materialId": "lynel-hoof", "quantity": 5 },
+      { "materialId": "lynel-guts", "quantity": 5 },
+      { "materialId": "amber", "quantity": 30 }
+    ]
+  },
+  {
+    "armorId": "soldiers-greaves",
+    "level": 1,
+    "requirements": [
+      { "materialId": "chuchu-jelly", "quantity": 5 },
+      { "materialId": "bokoblin-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-greaves",
+    "level": 2,
+    "requirements": [
+      { "materialId": "keese-eyeball", "quantity": 5 },
+      { "materialId": "moblin-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-greaves",
+    "level": 3,
+    "requirements": [
+      { "materialId": "flint", "quantity": 30 },
+      { "materialId": "lizalfos-tail", "quantity": 3 },
+      { "materialId": "hinox-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "soldiers-greaves",
+    "level": 4,
+    "requirements": [
+      { "materialId": "lynel-hoof", "quantity": 5 },
+      { "materialId": "lynel-guts", "quantity": 5 },
+      { "materialId": "amber", "quantity": 30 }
+    ]
+  },
+  {
+    "armorId": "diamond-circlet",
+    "level": 1,
+    "requirements": [
+      { "materialId": "diamond", "quantity": 2 },
+      { "materialId": "flint", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "diamond-circlet",
+    "level": 2,
+    "requirements": [
+      { "materialId": "diamond", "quantity": 3 },
+      { "materialId": "flint", "quantity": 4 }
+    ]
+  },
+  {
+    "armorId": "diamond-circlet",
+    "level": 3,
+    "requirements": [
+      { "materialId": "diamond", "quantity": 5 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "diamond-circlet",
+    "level": 4,
+    "requirements": [
+      { "materialId": "diamond", "quantity": 8 },
+      { "materialId": "star-fragment", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "ruby-circlet",
+    "level": 1,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 2 },
+      { "materialId": "flint", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "ruby-circlet",
+    "level": 2,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 4 },
+      { "materialId": "flint", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "ruby-circlet",
+    "level": 3,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "ruby-circlet",
+    "level": 4,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "sapphire-circlet",
+    "level": 1,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 2 },
+      { "materialId": "flint", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "sapphire-circlet",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 4 },
+      { "materialId": "flint", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "sapphire-circlet",
+    "level": 3,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "sapphire-circlet",
+    "level": 4,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "topaz-earrings",
+    "level": 1,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 2 },
+      { "materialId": "flint", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "topaz-earrings",
+    "level": 2,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 4 },
+      { "materialId": "flint", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "topaz-earrings",
+    "level": 3,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "topaz-earrings",
+    "level": 4,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "opal-earrings",
+    "level": 1,
+    "requirements": [
+      { "materialId": "opal", "quantity": 6 },
+      { "materialId": "flint", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "opal-earrings",
+    "level": 2,
+    "requirements": [
+      { "materialId": "opal", "quantity": 12 },
+      { "materialId": "flint", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "opal-earrings",
+    "level": 3,
+    "requirements": [
+      { "materialId": "opal", "quantity": 18 },
+      { "materialId": "flint", "quantity": 15 }
+    ]
+  },
+  {
+    "armorId": "opal-earrings",
+    "level": 4,
+    "requirements": [
+      { "materialId": "opal", "quantity": 30 },
+      { "materialId": "flint", "quantity": 25 }
+    ]
+  },
+  {
+    "armorId": "amber-earrings",
+    "level": 1,
+    "requirements": [
+      { "materialId": "amber", "quantity": 10 },
+      { "materialId": "flint", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "amber-earrings",
+    "level": 2,
+    "requirements": [
+      { "materialId": "amber", "quantity": 20 },
+      { "materialId": "flint", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "amber-earrings",
+    "level": 3,
+    "requirements": [
+      { "materialId": "amber", "quantity": 35 },
+      { "materialId": "flint", "quantity": 15 }
+    ]
+  },
+  {
+    "armorId": "amber-earrings",
+    "level": 4,
+    "requirements": [
+      { "materialId": "amber", "quantity": 60 },
+      { "materialId": "flint", "quantity": 25 }
+    ]
+  },
+  {
+    "armorId": "rubber-helm",
+    "level": 1,
+    "requirements": [
+      { "materialId": "yellow-chuchu-jelly", "quantity": 3 },
+      { "materialId": "electric-lizalfos-horn", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "rubber-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "yellow-chuchu-jelly", "quantity": 8 },
+      { "materialId": "voltfruit", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "rubber-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "zapshroom", "quantity": 5 },
+      { "materialId": "electric-lizalfos-tail", "quantity": 5 },
+      { "materialId": "electric-safflina", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "rubber-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 5 },
+      { "materialId": "electric-lizalfos-horn", "quantity": 5 },
+      { "materialId": "electric-lizalfos-tail", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "rubber-armor",
+    "level": 1,
+    "requirements": [
+      { "materialId": "yellow-chuchu-jelly", "quantity": 3 },
+      { "materialId": "electric-lizalfos-horn", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "rubber-armor",
+    "level": 2,
+    "requirements": [
+      { "materialId": "yellow-chuchu-jelly", "quantity": 8 },
+      { "materialId": "voltfruit", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "rubber-armor",
+    "level": 3,
+    "requirements": [
+      { "materialId": "zapshroom", "quantity": 5 },
+      { "materialId": "electric-lizalfos-tail", "quantity": 5 },
+      { "materialId": "electric-safflina", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "rubber-armor",
+    "level": 4,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 5 },
+      { "materialId": "electric-lizalfos-horn", "quantity": 5 },
+      { "materialId": "electric-lizalfos-tail", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "rubber-tights",
+    "level": 1,
+    "requirements": [
+      { "materialId": "yellow-chuchu-jelly", "quantity": 3 },
+      { "materialId": "electric-lizalfos-horn", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "rubber-tights",
+    "level": 2,
+    "requirements": [
+      { "materialId": "yellow-chuchu-jelly", "quantity": 8 },
+      { "materialId": "voltfruit", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "rubber-tights",
+    "level": 3,
+    "requirements": [
+      { "materialId": "zapshroom", "quantity": 5 },
+      { "materialId": "electric-lizalfos-tail", "quantity": 5 },
+      { "materialId": "electric-safflina", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "rubber-tights",
+    "level": 4,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 5 },
+      { "materialId": "electric-lizalfos-horn", "quantity": 5 },
+      { "materialId": "electric-lizalfos-tail", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "barbarian-helm",
+    "level": 1,
+    "requirements": [{ "materialId": "mighty-thistle", "quantity": 3 }]
+  },
+  {
+    "armorId": "barbarian-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "razorshroom", "quantity": 5 },
+      { "materialId": "lynel-saber-horn", "quantity": 2 },
+      { "materialId": "lynel-mace-horn", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "barbarian-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "blue-maned-lynel-saber-horn", "quantity": 3 },
+      { "materialId": "blue-maned-lynel-mace-horn", "quantity": 3 },
+      { "materialId": "razorclaw-crab", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "barbarian-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "white-maned-lynel-saber-horn", "quantity": 3 },
+      { "materialId": "white-maned-lynel-mace-horn", "quantity": 3 },
+      { "materialId": "bladed-rhino-beetle", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "barbarian-armor",
+    "level": 1,
+    "requirements": [{ "materialId": "mighty-thistle", "quantity": 3 }]
+  },
+  {
+    "armorId": "barbarian-armor",
+    "level": 2,
+    "requirements": [
+      { "materialId": "razorshroom", "quantity": 5 },
+      { "materialId": "lynel-saber-horn", "quantity": 2 },
+      { "materialId": "lynel-mace-horn", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "barbarian-armor",
+    "level": 3,
+    "requirements": [
+      { "materialId": "blue-maned-lynel-saber-horn", "quantity": 3 },
+      { "materialId": "blue-maned-lynel-mace-horn", "quantity": 3 },
+      { "materialId": "razorclaw-crab", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "barbarian-armor",
+    "level": 4,
+    "requirements": [
+      { "materialId": "white-maned-lynel-saber-horn", "quantity": 3 },
+      { "materialId": "white-maned-lynel-mace-horn", "quantity": 3 },
+      { "materialId": "bladed-rhino-beetle", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "barbarian-leg-wraps",
+    "level": 1,
+    "requirements": [{ "materialId": "mighty-thistle", "quantity": 3 }]
+  },
+  {
+    "armorId": "barbarian-leg-wraps",
+    "level": 2,
+    "requirements": [
+      { "materialId": "razorshroom", "quantity": 5 },
+      { "materialId": "lynel-saber-horn", "quantity": 2 },
+      { "materialId": "lynel-mace-horn", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "barbarian-leg-wraps",
+    "level": 3,
+    "requirements": [
+      { "materialId": "blue-maned-lynel-saber-horn", "quantity": 3 },
+      { "materialId": "blue-maned-lynel-mace-horn", "quantity": 3 },
+      { "materialId": "razorclaw-crab", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "barbarian-leg-wraps",
+    "level": 4,
+    "requirements": [
+      { "materialId": "white-maned-lynel-saber-horn", "quantity": 3 },
+      { "materialId": "white-maned-lynel-mace-horn", "quantity": 3 },
+      { "materialId": "bladed-rhino-beetle", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "sand-boots",
+    "level": 1,
+    "requirements": [{ "materialId": "hightail-lizard", "quantity": 3 }]
+  },
+  {
+    "armorId": "sand-boots",
+    "level": 2,
+    "requirements": [
+      { "materialId": "gibdo-bone", "quantity": 20 },
+      { "materialId": "swift-carrot", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "sand-boots",
+    "level": 3,
+    "requirements": [
+      { "materialId": "gibdo-guts", "quantity": 5 },
+      { "materialId": "rushroom", "quantity": 10 },
+      { "materialId": "molduga-fin", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "sand-boots",
+    "level": 4,
+    "requirements": [
+      { "materialId": "molduga-guts", "quantity": 5 },
+      { "materialId": "swift-violet", "quantity": 10 },
+      { "materialId": "hearty-lizard", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "glide-mask",
+    "level": 1,
+    "requirements": [{ "materialId": "keese-wing", "quantity": 3 }]
+  },
+  {
+    "armorId": "glide-mask",
+    "level": 2,
+    "requirements": [
+      { "materialId": "aerocuda-wing", "quantity": 5 },
+      { "materialId": "aerocuda-eyeball", "quantity": 6 }
+    ]
+  },
+  {
+    "armorId": "glide-mask",
+    "level": 3,
+    "requirements": [
+      { "materialId": "aerocuda-wing", "quantity": 6 },
+      { "materialId": "aerocuda-eyeball", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "glide-mask",
+    "level": 4,
+    "requirements": [
+      { "materialId": "aerocuda-wing", "quantity": 10 },
+      { "materialId": "gibdo-wing", "quantity": 8 },
+      { "materialId": "gleeok-wing", "quantity": 12 }
+    ]
+  },
+  {
+    "armorId": "glide-shirt",
+    "level": 1,
+    "requirements": [{ "materialId": "keese-wing", "quantity": 3 }]
+  },
+  {
+    "armorId": "glide-shirt",
+    "level": 2,
+    "requirements": [
+      { "materialId": "aerocuda-wing", "quantity": 5 },
+      { "materialId": "aerocuda-eyeball", "quantity": 6 }
+    ]
+  },
+  {
+    "armorId": "glide-shirt",
+    "level": 3,
+    "requirements": [
+      { "materialId": "aerocuda-wing", "quantity": 6 },
+      { "materialId": "aerocuda-eyeball", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "glide-shirt",
+    "level": 4,
+    "requirements": [
+      { "materialId": "aerocuda-wing", "quantity": 10 },
+      { "materialId": "gibdo-wing", "quantity": 8 },
+      { "materialId": "gleeok-wing", "quantity": 12 }
+    ]
+  },
+  {
+    "armorId": "glide-tights",
+    "level": 1,
+    "requirements": [{ "materialId": "keese-wing", "quantity": 3 }]
+  },
+  {
+    "armorId": "glide-tights",
+    "level": 2,
+    "requirements": [
+      { "materialId": "aerocuda-wing", "quantity": 5 },
+      { "materialId": "aerocuda-eyeball", "quantity": 6 }
+    ]
+  },
+  {
+    "armorId": "glide-tights",
+    "level": 3,
+    "requirements": [
+      { "materialId": "aerocuda-wing", "quantity": 6 },
+      { "materialId": "aerocuda-eyeball", "quantity": 8 }
+    ]
+  },
+  {
+    "armorId": "glide-tights",
+    "level": 4,
+    "requirements": [
+      { "materialId": "aerocuda-wing", "quantity": 10 },
+      { "materialId": "gibdo-wing", "quantity": 8 },
+      { "materialId": "gleeok-wing", "quantity": 12 }
+    ]
+  },
+  {
+    "armorId": "ancient-heros-aspect",
+    "level": 1,
+    "requirements": [
+      { "materialId": "silver-bokoblin-horn", "quantity": 9 },
+      { "materialId": "hinox-guts", "quantity": 9 },
+      { "materialId": "zonaite", "quantity": 15 }
+    ]
+  },
+  {
+    "armorId": "ancient-heros-aspect",
+    "level": 2,
+    "requirements": [
+      { "materialId": "silver-moblin-horn", "quantity": 9 },
+      { "materialId": "frox-guts", "quantity": 9 },
+      { "materialId": "large-zonaite", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "ancient-heros-aspect",
+    "level": 3,
+    "requirements": [
+      { "materialId": "silver-lizalfos-horn", "quantity": 9 },
+      { "materialId": "molduga-guts", "quantity": 9 },
+      { "materialId": "large-zonaite", "quantity": 15 }
+    ]
+  },
+  {
+    "armorId": "ancient-heros-aspect",
+    "level": 4,
+    "requirements": [
+      { "materialId": "silver-lynel-saber-horn", "quantity": 9 },
+      { "materialId": "silver-lynel-mace-horn", "quantity": 9 },
+      { "materialId": "gleeok-guts", "quantity": 9 }
+    ]
+  },
+  {
+    "armorId": "froggy-hood",
+    "level": 1,
+    "requirements": [{ "materialId": "sticky-lizard", "quantity": 3 }]
+  },
+  {
+    "armorId": "froggy-hood",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sticky-lizard", "quantity": 5 },
+      { "materialId": "horriblin-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "froggy-hood",
+    "level": 3,
+    "requirements": [
+      { "materialId": "blue-horriblin-horn", "quantity": 5 },
+      { "materialId": "sticky-frog", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "froggy-hood",
+    "level": 4,
+    "requirements": [
+      { "materialId": "black-horriblin-horn", "quantity": 5 },
+      { "materialId": "horriblin-guts", "quantity": 10 },
+      { "materialId": "opal", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "froggy-sleeve",
+    "level": 1,
+    "requirements": [{ "materialId": "sticky-lizard", "quantity": 3 }]
+  },
+  {
+    "armorId": "froggy-sleeve",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sticky-lizard", "quantity": 5 },
+      { "materialId": "horriblin-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "froggy-sleeve",
+    "level": 3,
+    "requirements": [
+      { "materialId": "blue-horriblin-horn", "quantity": 5 },
+      { "materialId": "sticky-frog", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "froggy-sleeve",
+    "level": 4,
+    "requirements": [
+      { "materialId": "black-horriblin-horn", "quantity": 5 },
+      { "materialId": "horriblin-guts", "quantity": 10 },
+      { "materialId": "opal", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "froggy-leggings",
+    "level": 1,
+    "requirements": [{ "materialId": "sticky-lizard", "quantity": 3 }]
+  },
+  {
+    "armorId": "froggy-leggings",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sticky-lizard", "quantity": 5 },
+      { "materialId": "horriblin-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "froggy-leggings",
+    "level": 3,
+    "requirements": [
+      { "materialId": "blue-horriblin-horn", "quantity": 5 },
+      { "materialId": "sticky-frog", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "froggy-leggings",
+    "level": 4,
+    "requirements": [
+      { "materialId": "black-horriblin-horn", "quantity": 5 },
+      { "materialId": "horriblin-guts", "quantity": 10 },
+      { "materialId": "opal", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "miners-mask",
+    "level": 1,
+    "requirements": [{ "materialId": "brightbloom-seed", "quantity": 10 }]
+  },
+  {
+    "armorId": "miners-mask",
+    "level": 2,
+    "requirements": [
+      { "materialId": "brightbloom-seed", "quantity": 20 },
+      { "materialId": "brightcap", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "miners-mask",
+    "level": 3,
+    "requirements": [
+      { "materialId": "giant-brightbloom-seed", "quantity": 15 },
+      { "materialId": "deep-firefly", "quantity": 10 },
+      { "materialId": "glowing-cave-fish", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "miners-mask",
+    "level": 4,
+    "requirements": [
+      { "materialId": "giant-brightbloom-seed", "quantity": 20 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "diamond", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "miners-top",
+    "level": 1,
+    "requirements": [{ "materialId": "brightbloom-seed", "quantity": 10 }]
+  },
+  {
+    "armorId": "miners-top",
+    "level": 2,
+    "requirements": [
+      { "materialId": "brightbloom-seed", "quantity": 20 },
+      { "materialId": "brightcap", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "miners-top",
+    "level": 3,
+    "requirements": [
+      { "materialId": "giant-brightbloom-seed", "quantity": 15 },
+      { "materialId": "deep-firefly", "quantity": 10 },
+      { "materialId": "glowing-cave-fish", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "miners-top",
+    "level": 4,
+    "requirements": [
+      { "materialId": "giant-brightbloom-seed", "quantity": 20 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "diamond", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "miners-trousers",
+    "level": 1,
+    "requirements": [{ "materialId": "brightbloom-seed", "quantity": 10 }]
+  },
+  {
+    "armorId": "miners-trousers",
+    "level": 2,
+    "requirements": [
+      { "materialId": "brightbloom-seed", "quantity": 20 },
+      { "materialId": "brightcap", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "miners-trousers",
+    "level": 3,
+    "requirements": [
+      { "materialId": "giant-brightbloom-seed", "quantity": 15 },
+      { "materialId": "deep-firefly", "quantity": 10 },
+      { "materialId": "glowing-cave-fish", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "miners-trousers",
+    "level": 4,
+    "requirements": [
+      { "materialId": "giant-brightbloom-seed", "quantity": 20 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "diamond", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "ember-headdress",
+    "level": 1,
+    "requirements": [{ "materialId": "fire-fruit", "quantity": 3 }]
+  },
+  {
+    "armorId": "ember-headdress",
+    "level": 2,
+    "requirements": [
+      { "materialId": "firebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "summerwing-butterfly", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "ember-headdress",
+    "level": 3,
+    "requirements": [
+      { "materialId": "fire-like-stone", "quantity": 5 },
+      { "materialId": "warm-darner", "quantity": 5 },
+      { "materialId": "large-zonai-charge", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "ember-headdress",
+    "level": 4,
+    "requirements": [
+      { "materialId": "gleeok-flame-horn", "quantity": 5 },
+      { "materialId": "sizzlefin-trout", "quantity": 10 },
+      { "materialId": "large-zonai-charge", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "ember-shirt",
+    "level": 1,
+    "requirements": [{ "materialId": "fire-fruit", "quantity": 3 }]
+  },
+  {
+    "armorId": "ember-shirt",
+    "level": 2,
+    "requirements": [
+      { "materialId": "firebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "summerwing-butterfly", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "ember-shirt",
+    "level": 3,
+    "requirements": [
+      { "materialId": "fire-like-stone", "quantity": 5 },
+      { "materialId": "warm-darner", "quantity": 5 },
+      { "materialId": "large-zonai-charge", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "ember-shirt",
+    "level": 4,
+    "requirements": [
+      { "materialId": "gleeok-flame-horn", "quantity": 5 },
+      { "materialId": "sizzlefin-trout", "quantity": 10 },
+      { "materialId": "large-zonai-charge", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "ember-trousers",
+    "level": 1,
+    "requirements": [{ "materialId": "fire-fruit", "quantity": 3 }]
+  },
+  {
+    "armorId": "ember-trousers",
+    "level": 2,
+    "requirements": [
+      { "materialId": "firebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "summerwing-butterfly", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "ember-trousers",
+    "level": 3,
+    "requirements": [
+      { "materialId": "fire-like-stone", "quantity": 5 },
+      { "materialId": "warm-darner", "quantity": 5 },
+      { "materialId": "large-zonai-charge", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "ember-trousers",
+    "level": 4,
+    "requirements": [
+      { "materialId": "gleeok-flame-horn", "quantity": 5 },
+      { "materialId": "sizzlefin-trout", "quantity": 10 },
+      { "materialId": "large-zonai-charge", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "charged-headdress",
+    "level": 1,
+    "requirements": [{ "materialId": "shock-fruit", "quantity": 3 }]
+  },
+  {
+    "armorId": "charged-headdress",
+    "level": 2,
+    "requirements": [
+      { "materialId": "thunderwing-butterfly", "quantity": 3 },
+      { "materialId": "electric-lizalfos-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "charged-headdress",
+    "level": 3,
+    "requirements": [
+      { "materialId": "shock-like-stone", "quantity": 5 },
+      { "materialId": "electric-darner", "quantity": 5 },
+      { "materialId": "large-zonai-charge", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "charged-headdress",
+    "level": 4,
+    "requirements": [
+      { "materialId": "gleeok-thunder-horn", "quantity": 5 },
+      { "materialId": "voltfin-trout", "quantity": 10 },
+      { "materialId": "large-zonai-charge", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "charged-shirt",
+    "level": 1,
+    "requirements": [{ "materialId": "shock-fruit", "quantity": 3 }]
+  },
+  {
+    "armorId": "charged-shirt",
+    "level": 2,
+    "requirements": [
+      { "materialId": "thunderwing-butterfly", "quantity": 3 },
+      { "materialId": "electric-lizalfos-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "charged-shirt",
+    "level": 3,
+    "requirements": [
+      { "materialId": "shock-like-stone", "quantity": 5 },
+      { "materialId": "electric-darner", "quantity": 5 },
+      { "materialId": "large-zonai-charge", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "charged-shirt",
+    "level": 4,
+    "requirements": [
+      { "materialId": "gleeok-thunder-horn", "quantity": 5 },
+      { "materialId": "voltfin-trout", "quantity": 10 },
+      { "materialId": "large-zonai-charge", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "charged-trousers",
+    "level": 1,
+    "requirements": [{ "materialId": "shock-fruit", "quantity": 3 }]
+  },
+  {
+    "armorId": "charged-trousers",
+    "level": 2,
+    "requirements": [
+      { "materialId": "thunderwing-butterfly", "quantity": 3 },
+      { "materialId": "electric-lizalfos-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "charged-trousers",
+    "level": 3,
+    "requirements": [
+      { "materialId": "shock-like-stone", "quantity": 5 },
+      { "materialId": "electric-darner", "quantity": 5 },
+      { "materialId": "large-zonai-charge", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "charged-trousers",
+    "level": 4,
+    "requirements": [
+      { "materialId": "gleeok-thunder-horn", "quantity": 5 },
+      { "materialId": "voltfin-trout", "quantity": 10 },
+      { "materialId": "large-zonai-charge", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "frostbite-headdress",
+    "level": 1,
+    "requirements": [{ "materialId": "ice-fruit", "quantity": 3 }]
+  },
+  {
+    "armorId": "frostbite-headdress",
+    "level": 2,
+    "requirements": [
+      { "materialId": "icebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "winterwing-butterfly", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "frostbite-headdress",
+    "level": 3,
+    "requirements": [
+      { "materialId": "ice-like-stone", "quantity": 5 },
+      { "materialId": "cold-darner", "quantity": 5 },
+      { "materialId": "large-zonai-charge", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "frostbite-headdress",
+    "level": 4,
+    "requirements": [
+      { "materialId": "gleeok-frost-horn", "quantity": 5 },
+      { "materialId": "chillfin-trout", "quantity": 10 },
+      { "materialId": "large-zonai-charge", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "frostbite-shirt",
+    "level": 1,
+    "requirements": [{ "materialId": "ice-fruit", "quantity": 3 }]
+  },
+  {
+    "armorId": "frostbite-shirt",
+    "level": 2,
+    "requirements": [
+      { "materialId": "icebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "winterwing-butterfly", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "frostbite-shirt",
+    "level": 3,
+    "requirements": [
+      { "materialId": "ice-like-stone", "quantity": 5 },
+      { "materialId": "cold-darner", "quantity": 5 },
+      { "materialId": "large-zonai-charge", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "frostbite-shirt",
+    "level": 4,
+    "requirements": [
+      { "materialId": "gleeok-frost-horn", "quantity": 5 },
+      { "materialId": "chillfin-trout", "quantity": 10 },
+      { "materialId": "large-zonai-charge", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "frostbite-trousers",
+    "level": 1,
+    "requirements": [{ "materialId": "ice-fruit", "quantity": 3 }]
+  },
+  {
+    "armorId": "frostbite-trousers",
+    "level": 2,
+    "requirements": [
+      { "materialId": "icebreath-lizalfos-horn", "quantity": 5 },
+      { "materialId": "winterwing-butterfly", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "frostbite-trousers",
+    "level": 3,
+    "requirements": [
+      { "materialId": "ice-like-stone", "quantity": 5 },
+      { "materialId": "cold-darner", "quantity": 5 },
+      { "materialId": "large-zonai-charge", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "frostbite-trousers",
+    "level": 4,
+    "requirements": [
+      { "materialId": "gleeok-frost-horn", "quantity": 5 },
+      { "materialId": "chillfin-trout", "quantity": 10 },
+      { "materialId": "large-zonai-charge", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "zonaite-helm",
+    "level": 1,
+    "requirements": [{ "materialId": "soldier-construct-horn", "quantity": 5 }]
+  },
+  {
+    "armorId": "zonaite-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "soldier-construct-ii-horn", "quantity": 5 },
+      { "materialId": "zonaite", "quantity": 5 },
+      { "materialId": "captain-construct-i-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zonaite-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "large-zonaite", "quantity": 5 },
+      { "materialId": "captain-construct-ii-horn", "quantity": 5 },
+      { "materialId": "soldier-construct-iii-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zonaite-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "captain-construct-iii-horn", "quantity": 5 },
+      { "materialId": "soldier-construct-iv-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zonaite-waistguard",
+    "level": 1,
+    "requirements": [{ "materialId": "soldier-construct-horn", "quantity": 5 }]
+  },
+  {
+    "armorId": "zonaite-waistguard",
+    "level": 2,
+    "requirements": [
+      { "materialId": "soldier-construct-ii-horn", "quantity": 5 },
+      { "materialId": "zonaite", "quantity": 5 },
+      { "materialId": "captain-construct-i-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zonaite-waistguard",
+    "level": 3,
+    "requirements": [
+      { "materialId": "large-zonaite", "quantity": 5 },
+      { "materialId": "captain-construct-ii-horn", "quantity": 5 },
+      { "materialId": "soldier-construct-iii-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zonaite-waistguard",
+    "level": 4,
+    "requirements": [
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "captain-construct-iii-horn", "quantity": 5 },
+      { "materialId": "soldier-construct-iv-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zonaite-shin-guards",
+    "level": 1,
+    "requirements": [{ "materialId": "soldier-construct-horn", "quantity": 5 }]
+  },
+  {
+    "armorId": "zonaite-shin-guards",
+    "level": 2,
+    "requirements": [
+      { "materialId": "soldier-construct-ii-horn", "quantity": 5 },
+      { "materialId": "zonaite", "quantity": 5 },
+      { "materialId": "captain-construct-i-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zonaite-shin-guards",
+    "level": 3,
+    "requirements": [
+      { "materialId": "large-zonaite", "quantity": 5 },
+      { "materialId": "captain-construct-ii-horn", "quantity": 5 },
+      { "materialId": "soldier-construct-iii-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "zonaite-shin-guards",
+    "level": 4,
+    "requirements": [
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "captain-construct-iii-horn", "quantity": 5 },
+      { "materialId": "soldier-construct-iv-horn", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "mask-of-awakening",
+    "level": 1,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "mask-of-awakening",
+    "level": 2,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 15 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "mask-of-awakening",
+    "level": 3,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 20 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "mask-of-awakening",
+    "level": 4,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 30 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-awakening",
+    "level": 1,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-awakening",
+    "level": 2,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 15 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-awakening",
+    "level": 3,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 20 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-awakening",
+    "level": 4,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 30 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-awakening",
+    "level": 1,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-awakening",
+    "level": 2,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 15 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-awakening",
+    "level": 3,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 20 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-awakening",
+    "level": 4,
+    "requirements": [
+      { "materialId": "luminous-stone", "quantity": 30 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "champions-leathers",
+    "level": 1,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 3 },
+      { "materialId": "light-dragons-scale", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "champions-leathers",
+    "level": 2,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 3 },
+      { "materialId": "light-dragons-talon", "quantity": 2 },
+      { "materialId": "sundelion", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "champions-leathers",
+    "level": 3,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 5 },
+      { "materialId": "shard-of-light-dragons-fang", "quantity": 2 },
+      { "materialId": "sundelion", "quantity": 15 }
+    ]
+  },
+  {
+    "armorId": "champions-leathers",
+    "level": 4,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 10 },
+      { "materialId": "light-dragons-horn", "quantity": 2 },
+      { "materialId": "sundelion", "quantity": 20 }
+    ]
+  },
+  {
+    "armorId": "hood-of-the-depths",
+    "level": 1,
+    "requirements": [{ "materialId": "deep-firefly", "quantity": 3 }]
+  },
+  {
+    "armorId": "hood-of-the-depths",
+    "level": 2,
+    "requirements": [
+      { "materialId": "dark-clump", "quantity": 5 },
+      { "materialId": "frox-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "hood-of-the-depths",
+    "level": 3,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 20 },
+      { "materialId": "frox-fingernail", "quantity": 3 },
+      { "materialId": "obsidian-frox-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "hood-of-the-depths",
+    "level": 4,
+    "requirements": [
+      { "materialId": "blue-white-frox-fang", "quantity": 5 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "frox-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-depths",
+    "level": 1,
+    "requirements": [{ "materialId": "deep-firefly", "quantity": 3 }]
+  },
+  {
+    "armorId": "tunic-of-the-depths",
+    "level": 2,
+    "requirements": [
+      { "materialId": "dark-clump", "quantity": 5 },
+      { "materialId": "frox-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-depths",
+    "level": 3,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 20 },
+      { "materialId": "frox-fingernail", "quantity": 3 },
+      { "materialId": "obsidian-frox-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-depths",
+    "level": 4,
+    "requirements": [
+      { "materialId": "blue-white-frox-fang", "quantity": 5 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "frox-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "gaiters-of-the-depths",
+    "level": 1,
+    "requirements": [{ "materialId": "deep-firefly", "quantity": 3 }]
+  },
+  {
+    "armorId": "gaiters-of-the-depths",
+    "level": 2,
+    "requirements": [
+      { "materialId": "dark-clump", "quantity": 5 },
+      { "materialId": "frox-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "gaiters-of-the-depths",
+    "level": 3,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 20 },
+      { "materialId": "frox-fingernail", "quantity": 3 },
+      { "materialId": "obsidian-frox-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "gaiters-of-the-depths",
+    "level": 4,
+    "requirements": [
+      { "materialId": "blue-white-frox-fang", "quantity": 5 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "frox-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-memories",
+    "level": 1,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 3 },
+      { "materialId": "light-dragons-scale", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-memories",
+    "level": 2,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 3 },
+      { "materialId": "light-dragons-talon", "quantity": 1 },
+      { "materialId": "faroshs-horn", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-memories",
+    "level": 3,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 5 },
+      { "materialId": "shard-of-light-dragons-fang", "quantity": 1 },
+      { "materialId": "naydras-horn", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-memories",
+    "level": 4,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 10 },
+      { "materialId": "light-dragons-horn", "quantity": 1 },
+      { "materialId": "dinraals-horn", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "yiga-mask",
+    "level": 1,
+    "requirements": [{ "materialId": "octorok-eyeball", "quantity": 2 }]
+  },
+  {
+    "armorId": "yiga-mask",
+    "level": 2,
+    "requirements": [
+      { "materialId": "puffshroom", "quantity": 3 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "yiga-mask",
+    "level": 3,
+    "requirements": [
+      { "materialId": "icebreath-lizalfos-tail", "quantity": 5 },
+      { "materialId": "keese-eyeball", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "yiga-mask",
+    "level": 4,
+    "requirements": [
+      { "materialId": "electric-lizalfos-tail", "quantity": 5 },
+      { "materialId": "black-hinox-horn", "quantity": 3 },
+      { "materialId": "mighty-bananas", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "yiga-armor",
+    "level": 1,
+    "requirements": [{ "materialId": "octorok-eyeball", "quantity": 2 }]
+  },
+  {
+    "armorId": "yiga-armor",
+    "level": 2,
+    "requirements": [
+      { "materialId": "puffshroom", "quantity": 3 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "yiga-armor",
+    "level": 3,
+    "requirements": [
+      { "materialId": "icebreath-lizalfos-tail", "quantity": 5 },
+      { "materialId": "keese-eyeball", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "yiga-armor",
+    "level": 4,
+    "requirements": [
+      { "materialId": "electric-lizalfos-tail", "quantity": 5 },
+      { "materialId": "black-hinox-horn", "quantity": 3 },
+      { "materialId": "mighty-bananas", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "yiga-tights",
+    "level": 1,
+    "requirements": [{ "materialId": "octorok-eyeball", "quantity": 2 }]
+  },
+  {
+    "armorId": "yiga-tights",
+    "level": 2,
+    "requirements": [
+      { "materialId": "puffshroom", "quantity": 3 },
+      { "materialId": "firebreath-lizalfos-tail", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "yiga-tights",
+    "level": 3,
+    "requirements": [
+      { "materialId": "icebreath-lizalfos-tail", "quantity": 5 },
+      { "materialId": "keese-eyeball", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "yiga-tights",
+    "level": 4,
+    "requirements": [
+      { "materialId": "electric-lizalfos-tail", "quantity": 5 },
+      { "materialId": "black-hinox-horn", "quantity": 3 },
+      { "materialId": "mighty-bananas", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "snow-boots",
+    "level": 1,
+    "requirements": [{ "materialId": "hightail-lizard", "quantity": 3 }]
+  },
+  {
+    "armorId": "snow-boots",
+    "level": 2,
+    "requirements": [
+      { "materialId": "octorok-tentacle", "quantity": 5 },
+      { "materialId": "swift-carrot", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "snow-boots",
+    "level": 3,
+    "requirements": [
+      { "materialId": "octo-balloon", "quantity": 5 },
+      { "materialId": "rushroom", "quantity": 20 }
+    ]
+  },
+  {
+    "armorId": "snow-boots",
+    "level": 4,
+    "requirements": [
+      { "materialId": "naydras-scale", "quantity": 2 },
+      { "materialId": "swift-violet", "quantity": 20 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-cap",
+    "level": 1,
+    "requirements": [
+      { "materialId": "bokoblin-guts", "quantity": 3 },
+      { "materialId": "boss-bokoblin-horn", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-cap",
+    "level": 2,
+    "requirements": [
+      { "materialId": "blue-boss-bokoblin-horn", "quantity": 3 },
+      { "materialId": "boss-bokoblin-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-cap",
+    "level": 3,
+    "requirements": [
+      { "materialId": "black-boss-bokoblin-horn", "quantity": 3 },
+      { "materialId": "hinox-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-cap",
+    "level": 4,
+    "requirements": [
+      { "materialId": "silver-boss-bokoblin-horn", "quantity": 3 },
+      { "materialId": "molduga-guts", "quantity": 3 },
+      { "materialId": "gleeok-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-uniform",
+    "level": 1,
+    "requirements": [
+      { "materialId": "bokoblin-guts", "quantity": 3 },
+      { "materialId": "boss-bokoblin-horn", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-uniform",
+    "level": 2,
+    "requirements": [
+      { "materialId": "blue-boss-bokoblin-horn", "quantity": 3 },
+      { "materialId": "boss-bokoblin-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-uniform",
+    "level": 3,
+    "requirements": [
+      { "materialId": "black-boss-bokoblin-horn", "quantity": 3 },
+      { "materialId": "hinox-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-uniform",
+    "level": 4,
+    "requirements": [
+      { "materialId": "silver-boss-bokoblin-horn", "quantity": 3 },
+      { "materialId": "molduga-guts", "quantity": 3 },
+      { "materialId": "gleeok-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-boots",
+    "level": 1,
+    "requirements": [
+      { "materialId": "bokoblin-guts", "quantity": 3 },
+      { "materialId": "boss-bokoblin-horn", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-boots",
+    "level": 2,
+    "requirements": [
+      { "materialId": "blue-boss-bokoblin-horn", "quantity": 3 },
+      { "materialId": "boss-bokoblin-fang", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-boots",
+    "level": 3,
+    "requirements": [
+      { "materialId": "black-boss-bokoblin-horn", "quantity": 3 },
+      { "materialId": "hinox-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "royal-guard-boots",
+    "level": 4,
+    "requirements": [
+      { "materialId": "silver-boss-bokoblin-horn", "quantity": 3 },
+      { "materialId": "molduga-guts", "quantity": 3 },
+      { "materialId": "gleeok-guts", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "vah-ruta-divine-helm",
+    "level": 1,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 5 },
+      { "materialId": "opal", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "vah-ruta-divine-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 10 },
+      { "materialId": "opal", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "vah-ruta-divine-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "opal", "quantity": 15 },
+      { "materialId": "large-zonaite", "quantity": 5 },
+      { "materialId": "dazzlefruit", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "vah-ruta-divine-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "opal", "quantity": 25 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "dazzlefruit", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "vah-medoh-divine-helm",
+    "level": 1,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 5 },
+      { "materialId": "sapphire", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "vah-medoh-divine-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 10 },
+      { "materialId": "sapphire", "quantity": 4 }
+    ]
+  },
+  {
+    "armorId": "vah-medoh-divine-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 6 },
+      { "materialId": "large-zonaite", "quantity": 5 },
+      { "materialId": "dazzlefruit", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "vah-medoh-divine-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 10 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "dazzlefruit", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "vah-rudania-divine-helm",
+    "level": 1,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 5 },
+      { "materialId": "ruby", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "vah-rudania-divine-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 10 },
+      { "materialId": "ruby", "quantity": 4 }
+    ]
+  },
+  {
+    "armorId": "vah-rudania-divine-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 6 },
+      { "materialId": "large-zonaite", "quantity": 5 },
+      { "materialId": "dazzlefruit", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "vah-rudania-divine-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 10 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "dazzlefruit", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "vah-naboris-divine-helm",
+    "level": 1,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 5 },
+      { "materialId": "topaz", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "vah-naboris-divine-helm",
+    "level": 2,
+    "requirements": [
+      { "materialId": "zonaite", "quantity": 10 },
+      { "materialId": "topaz", "quantity": 4 }
+    ]
+  },
+  {
+    "armorId": "vah-naboris-divine-helm",
+    "level": 3,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 6 },
+      { "materialId": "large-zonaite", "quantity": 5 },
+      { "materialId": "dazzlefruit", "quantity": 5 }
+    ]
+  },
+  {
+    "armorId": "vah-naboris-divine-helm",
+    "level": 4,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 10 },
+      { "materialId": "large-zonaite", "quantity": 10 },
+      { "materialId": "dazzlefruit", "quantity": 10 }
+    ]
+  },
+  {
+    "armorId": "cap-of-time",
+    "level": 1,
+    "requirements": [
+      { "materialId": "amber", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-time",
+    "level": 2,
+    "requirements": [
+      { "materialId": "amber", "quantity": 20 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-time",
+    "level": 3,
+    "requirements": [
+      { "materialId": "amber", "quantity": 30 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-time",
+    "level": 4,
+    "requirements": [
+      { "materialId": "amber", "quantity": "40" },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-time",
+    "level": 1,
+    "requirements": [
+      { "materialId": "amber", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-time",
+    "level": 2,
+    "requirements": [
+      { "materialId": "amber", "quantity": 20 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-time",
+    "level": 3,
+    "requirements": [
+      { "materialId": "amber", "quantity": 30 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-time",
+    "level": 4,
+    "requirements": [
+      { "materialId": "amber", "quantity": "40" },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-time",
+    "level": 1,
+    "requirements": [
+      { "materialId": "amber", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-time",
+    "level": 2,
+    "requirements": [
+      { "materialId": "amber", "quantity": 20 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-time",
+    "level": 3,
+    "requirements": [
+      { "materialId": "amber", "quantity": 30 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-time",
+    "level": 4,
+    "requirements": [
+      { "materialId": "amber", "quantity": "40" },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-wind",
+    "level": 1,
+    "requirements": [
+      { "materialId": "opal", "quantity": 5 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-wind",
+    "level": 2,
+    "requirements": [
+      { "materialId": "opal", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-wind",
+    "level": 3,
+    "requirements": [
+      { "materialId": "opal", "quantity": 15 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-wind",
+    "level": 4,
+    "requirements": [
+      { "materialId": "opal", "quantity": 25 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-wind",
+    "level": 1,
+    "requirements": [
+      { "materialId": "opal", "quantity": 5 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-wind",
+    "level": 2,
+    "requirements": [
+      { "materialId": "opal", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-wind",
+    "level": 3,
+    "requirements": [
+      { "materialId": "opal", "quantity": 15 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-wind",
+    "level": 4,
+    "requirements": [
+      { "materialId": "opal", "quantity": 25 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-wind",
+    "level": 1,
+    "requirements": [
+      { "materialId": "opal", "quantity": 5 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-wind",
+    "level": 2,
+    "requirements": [
+      { "materialId": "opal", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-wind",
+    "level": 3,
+    "requirements": [
+      { "materialId": "opal", "quantity": 15 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-wind",
+    "level": 4,
+    "requirements": [
+      { "materialId": "opal", "quantity": 25 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-twilight",
+    "level": 1,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-twilight",
+    "level": 2,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-twilight",
+    "level": 3,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-twilight",
+    "level": 4,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-twilight",
+    "level": 1,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-twilight",
+    "level": 2,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-twilight",
+    "level": 3,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-twilight",
+    "level": 4,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-twilight",
+    "level": 1,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-twilight",
+    "level": 2,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-twilight",
+    "level": 3,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-twilight",
+    "level": 4,
+    "requirements": [
+      { "materialId": "topaz", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-sky",
+    "level": 1,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-sky",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-sky",
+    "level": 3,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-sky",
+    "level": 4,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-sky",
+    "level": 1,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-sky",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-sky",
+    "level": 3,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-sky",
+    "level": 4,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-sky",
+    "level": 1,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-sky",
+    "level": 2,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-sky",
+    "level": 3,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-sky",
+    "level": 4,
+    "requirements": [
+      { "materialId": "sapphire", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "shieks-mask",
+    "level": 1,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "shieks-mask",
+    "level": 2,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 2 },
+      { "materialId": "star-fragment", "quantity": 2 }
+    ]
+  },
+  {
+    "armorId": "shieks-mask",
+    "level": 3,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 3 }
+    ]
+  },
+  {
+    "armorId": "shieks-mask",
+    "level": 4,
+    "requirements": [
+      { "materialId": "silent-princess", "quantity": 8 },
+      { "materialId": "star-fragment", "quantity": 4 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-mask",
+    "level": 1,
+    "requirements": [
+      { "materialId": "hinox-toenail", "quantity": 5 },
+      { "materialId": "dinraals-scale", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-mask",
+    "level": 2,
+    "requirements": [
+      { "materialId": "hinox-tooth", "quantity": 5 },
+      { "materialId": "dinraals-claw", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-mask",
+    "level": 3,
+    "requirements": [
+      { "materialId": "hinox-guts", "quantity": 2 },
+      { "materialId": "shard-of-dinraals-fang", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-mask",
+    "level": 4,
+    "requirements": [
+      { "materialId": "lynel-guts", "quantity": 2 },
+      { "materialId": "dinraals-horn", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-armor",
+    "level": 1,
+    "requirements": [
+      { "materialId": "hinox-toenail", "quantity": 5 },
+      { "materialId": "dinraals-scale", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-armor",
+    "level": 2,
+    "requirements": [
+      { "materialId": "hinox-tooth", "quantity": 5 },
+      { "materialId": "dinraals-claw", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-armor",
+    "level": 3,
+    "requirements": [
+      { "materialId": "hinox-guts", "quantity": 2 },
+      { "materialId": "shard-of-dinraals-fang", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-armor",
+    "level": 4,
+    "requirements": [
+      { "materialId": "lynel-guts", "quantity": 2 },
+      { "materialId": "dinraals-horn", "quantity": 1 }
+    ]
+  }
+
+  ,
+  {
+    "armorId": "fierce-deity-boots",
+    "level": 1,
+    "requirements": [
+      { "materialId": "hinox-toenail", "quantity": 5 },
+      { "materialId": "dinraals-scale", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-boots",
+    "level": 2,
+    "requirements": [
+      { "materialId": "hinox-tooth", "quantity": 5 },
+      { "materialId": "dinraals-claw", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-boots",
+    "level": 3,
+    "requirements": [
+      { "materialId": "hinox-guts", "quantity": 2 },
+      { "materialId": "shard-of-dinraals-fang", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "fierce-deity-boots",
+    "level": 4,
+    "requirements": [
+      { "materialId": "lynel-guts", "quantity": 2 },
+      { "materialId": "dinraals-horn", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-hero",
+    "level": 1,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-hero",
+    "level": 2,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-hero",
+    "level": 3,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "cap-of-the-hero",
+    "level": 4,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-hero",
+    "level": 1,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-hero",
+    "level": 2,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-hero",
+    "level": 3,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "tunic-of-the-hero",
+    "level": 4,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-hero",
+    "level": 1,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 1 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-hero",
+    "level": 2,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 4 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-hero",
+    "level": 3,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 6 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  },
+  {
+    "armorId": "trousers-of-the-hero",
+    "level": 4,
+    "requirements": [
+      { "materialId": "ruby", "quantity": 10 },
+      { "materialId": "star-fragment", "quantity": 1 }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",             // Use modern JS output for Node 20/Electron
+    "module": "CommonJS",           // Electron main/preload run in Node’s CJS by default
+    "strict": true,                 // Turn on strict type-checking (great for learning)
+    "noImplicitAny": true,          // Force you to type things you forgot to type
+    "moduleResolution": "Node",     // Resolve modules like Node does
+    "resolveJsonModule": true,      // Allow `import data from './file.json'`
+    "types": ["node"],              // Enable Node’s type definitions (`fs`, `path`, etc.)
+    "esModuleInterop": true, //allow default import of path etc commonjs modules
+    "outDir": "../dist-electron"    // Compiled JS goes here
+  },
+  "include": ["./**/*.ts"]          // Only compile TS files inside /electron
+}

@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "hylian-hood",
+    "set": "Hylian",
+    "name": "Hylian Hood",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A hood woven using traditional Hyrulean methods. It's made from a sturdy material to protect travelers from the harsh sun and weather.",
+    "location": "Lookout Landing"
+  },
+  {
+    "id": "hylian-tunic",
+    "set": "Hylian",
+    "name": "Hylian Tunic",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "A common garb that achieved widespread popularity in Hyrule, particularly among travelers. Its light-yet-sturdy fabric doesn't limit movement.",
+    "location": "Lookout Landing"
+  },
+  {
+    "id": "hylian-trousers",
+    "set": "Hylian",
+    "name": "Hylian Trousers",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Traditional dress trousers of Hyrule. The plush fabric makes these trousers quite comfortable, and their high durability makes them ideal for travelers.",
+    "location": "Lookout Landing"
+  },
+  {
+    "id": "cap-of-the-wild",
+    "set": "Wild",
+    "name": "Cap of the Wild",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "According to legend, this cap was crafted for a hero who traves the wild lands. Wearing it just feels so right.",
+    "location": "-3956, 3713, -0858"
+  },
+  {
+    "id": "tunic-of-the-wild",
+    "set": "Wild",
+    "name": "Tunic of the Wild",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "This armor was apparently crafted for a hero who travels the wilds. Strangely enough, it's just your size.",
+    "location": "-4879, -3720, -0458"
+  },
+  {
+    "id": "trousers-of-the-wild",
+    "set": "Wild",
+    "name": "Trousers of the Wild",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Legends say these pants were tailored for a hero who travels the wilderness. Strangely enough, they're the most comfortable pair of pants you've ever worn.",
+    "location": "1674, 3723, -0561"
+  },
+  {
+    "id": "zora-helm",
+    "set": "Zora",
+    "name": "Zora Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Zora headgear made from dragon scales. Increases swimming speed and allows you to spin to attack while swimming.",
+    "location": "4094, 0529, 0586"
+  },
+  {
+    "id": "zora-armor",
+    "set": "Zora",
+    "name": "Zora Armor",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Armor crafted by a past Zora princess for her future husband. Equip it to swim up waterfalls.",
+    "location": "TODO"
+  },
+  {
+    "id": "zora-greaves",
+    "set": "Zora",
+    "name": "Zora Greaves",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "These greaves have been passed down among the Zora for generations. Equip them to swim faster.",
+    "location": "3612, 0123, 0003"
+  },
+  {
+    "id": "desert-voe-headband",
+    "set": "Desert Voe",
+    "name": "Desert Voe Headband",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Gerudo armor for males. Contains sapphire, which harnesses the power of ice to make the heat more bearable.",
+    "location": "Gerudo Secret Club"
+  },
+  {
+    "id": "desert-voe-spaulder",
+    "set": "Desert Voe",
+    "name": "Desert Voe Spaulder",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Armor for males sold rarely by Gerudo retailers. It contains sapphire, which harnesses the power of ice to make hot climates more tolerable.",
+    "location": "Gerudo Secret Club"
+  },
+  {
+    "id": "desert-voe-trousers",
+    "set": "Desert Voe",
+    "name": "Desert Voe Trousers",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Gerudo-made trousers for males sold rarely by Gerudo retailers. Sapphire is used in their creation, which harnesses the power of ice to make the heat more tolerable.",
+    "location": "Gerudo Secret Club"
+  },
+  {
+    "id": "snowquill-headdress",
+    "set": "Snowquill",
+    "name": "Snowquill Headdress",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A Rito accessory made from snow-bird feathers. Adorned with a ruby, a gem that harnesses the power of fire.",
+    "location": "Rito Village"
+  },
+  {
+    "id": "snowquill-tunic",
+    "set": "Snowquill",
+    "name": "Snowquill Tunic",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Made by Rito artisans, this tunic stacks molted Rito feathers in each layer to help retain body heat.",
+    "location": "Rito Village"
+  },
+  {
+    "id": "snowquill-trousers",
+    "set": "Snowquill",
+    "name": "Snowquill Trousers",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "The Rito feathers that line these trousers make them excellent at retaining body heat.",
+    "location": "Rito Village"
+  },
+  {
+    "id": "flamebreaker-helm",
+    "set": "Flamebreaker",
+    "name": "Flamebreaker Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Stone headgear made for tourists by Goron crafters. Not only is is flame resistant but it also covers your entire head.",
+    "location": "Goron City"
+  },
+  {
+    "id": "flamebreaker-armor",
+    "set": "Flamebreaker",
+    "name": "Flamebreaker Armor",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Fire-resistant armor crafted by Gorons for Hylians curious enough to visit Goron City.",
+    "location": "Goron City"
+  },
+  {
+    "id": "flamebreaker-boots",
+    "set": "Flamebreaker",
+    "name": "Flamebreaker Boots",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Goron artisans used flame-resistant rocks to craft these fireproof boots for curious Hylians visiting Goron City.",
+    "location": "Goron City"
+  },
+  {
+    "id": "stealth-mask",
+    "set": "Stealth",
+    "name": "Stealth Mask",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Sheikah-made mask that suppresses the noisy rustling of clothes. Perfect for sneaking about.",
+    "location": "Kakariko Village"
+  },
+  {
+    "id": "stealth-chest-guard",
+    "set": "Stealth",
+    "name": "Stealth Chest Guard",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Tights crafted by the Sheikah, laced with ancient technology that suppresses the noisy rustling of clothes.",
+    "location": "Kakariko Village"
+  },
+  {
+    "id": "stealth-tights",
+    "set": "Stealth",
+    "name": "Stealth Tights",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Armor designed for stealth, passed down through the Sheikah tribe. Its special fabric suppresses sound.",
+    "location": "Kakariko Village"
+  },
+  {
+    "id": "climbers-bandana",
+    "set": "Climbing",
+    "name": "Climber's Bandana",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "It may look like a regular bandana, but it's actually infused with ancient technology that enhances core strength to improve your climbing ability.",
+    "location": "Ploymus Mountain Cave"
+  },
+  {
+    "id": "climbing-gear",
+    "set": "Climbing",
+    "name": "Climbing Gear",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "These rock-climbing boots have special no-slip toes that help you cling to walls. This ancient technology facilitates more nimble climbing.",
+    "location": "Upland Zorana Byroad"
+  },
+  {
+    "id": "climbing-boots",
+    "set": "Climbing",
+    "name": "Climbing Boots",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "The ancient technology in this gear will make you a better climber. The special no-slip gloves helps you use your energy more efficiently to facilitate nimble climbing.",
+    "location": "North Hyrule Plains Cave"
+  },
+  {
+    "id": "radiant-mask",
+    "set": "Radiant",
+    "name": "Radiant Mask",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A mask made from crushed luminous stones that gives off a radiant glow in the dark.",
+    "location": "Kakariko Village"
+  },
+  {
+    "id": "radiant-shirt",
+    "set": "Radiant",
+    "name": "Radiant Shirt",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "A shirt that glows in the dark due to dye made from luminous stones.",
+    "location": "Kakariko Village"
+  },
+  {
+    "id": "radiant-tights",
+    "set": "Radiant",
+    "name": "Radiant Tights",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Paint made from crushed luminous stones causes these tights to glow in the dark.",
+    "location": "Kakariko Village"
+  },
+  {
+    "id": "soldiers-helm",
+    "set": "Soldier's",
+    "name": "Soldier's Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Headgear made from sturdy metals for frontline soldiers. Praised for their defensive capabilities, the only helms that remain are those that survived the Calamity.",
+    "location": "Royal Hidden Passage"
+  },
+  {
+    "id": "soldiers-armor",
+    "set": "Soldier's",
+    "name": "Soldier's Armor",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Hyruliean guards praised this armor for its superior defense. Made from sturdy plates of metal, the high level of craftsmanship that went into it is obvious with just a glance.",
+    "location": "Royal Hidden Passage"
+  },
+  {
+    "id": "soldiers-greaves",
+    "set": "Soldier's",
+    "name": "Soldier's Greaves",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Hyruliean guards favored these greaves. They owe their distinctly high defense to the metal plates they're made from, but the added weight takes some getting used to.",
+    "location": "Royal Hidden Passage"
+  },
+  {
+    "id": "bokoblin-mask",
+    "set": "Bokoblin",
+    "name": "Bokoblin Mask",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Kilton's handmade Bokoblin headgear. It's almost charming in a cute, monstrous kind of way... Equip it to blend in with Bokoblins.",
+    "location": "Kilton's Monster Shop"
+  },
+  {
+    "id": "diamond-circlet",
+    "set": "Diamond",
+    "name": "Diamond Circlet",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A Gerudo headpiece set with a diamond, which increases attack power.",
+    "location": "Gerudo Jewelry Shop"
+  },
+  {
+    "id": "ruby-circlet",
+    "set": "Ruby",
+    "name": "Ruby Circlet",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A headpiece made by Gerudo craft workers. It's set with a ruby, a gem that harnesses the power of fire to make cold climates more bearable.",
+    "location": "Gerudo Jewelry Shop"
+  },
+  {
+    "id": "sapphire-circlet",
+    "set": "Sapphire",
+    "name": "Sapphire Circlet",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "An intricate headpiece crafted with Gerudo goldsmith techniques. It's set with a sapphire, a gem that harnesses the power of ice to make hot climates more tolerable.",
+    "location": "Gerudo Jewelry Shop"
+  },
+  {
+    "id": "topaz-earrings",
+    "set": "Topaz",
+    "name": "Topaz Earrings",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Earrings made by Gerudo craft workers. They're made with topaz, a gem that harnesses the power of lighting to increase electricity resistance.",
+    "location": "Gerudo Jewelry Shop"
+  },
+  {
+    "id": "opal-earrings",
+    "set": "Opal",
+    "name": "Opal Earrings",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Earrings sold at Gerudo jewelry shops. They contain opal, a gem that harnesses the power of water to increase your swimming speed.",
+    "location": "Gerudo Jewelry Shop"
+  },
+  {
+    "id": "amber-earrings",
+    "set": "Amber",
+    "name": "Amber Earrings",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "One of the items sold by the Gerudo jeweler. These earrings are made with amber, a gem that harnesses the power of the land to increase defense when equipped.",
+    "location": "Gerudo Jewelry Shop"
+  },
+  {
+    "id": "moblin-mask",
+    "set": "Moblin",
+    "name": "Moblin Mask",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Kilton's handmade Moblin headgear. It's designed to replicate the distinct, long, Moblin nose and hanging tongue. Equip it to blend in with Moblins.",
+    "location": "Kilton's Monster Shop"
+  },
+  {
+    "id": "rubber-helm",
+    "set": "Rubber",
+    "name": "Rubber Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "An electricity-resistant helmet made from an ancient material called \"rubber.\"",
+    "location": "Sarjon Woods Cave"
+  },
+  {
+    "id": "rubber-armor",
+    "set": "Rubber",
+    "name": "Rubber Armor",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "This armor owes its electricity resistance to an ancient material called \"rubber,\" which is nearly impossible to find.",
+    "location": "Whistling Hill Cave"
+  },
+  {
+    "id": "rubber-tights",
+    "set": "Rubber",
+    "name": "Rubber Tights",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "These invaluable tights are resistant to electricity. They're made with an ancient technology called \"rubber.\"",
+    "location": "Horon Lagoon Cave"
+  },
+  {
+    "id": "barbarian-helm",
+    "set": "Barbarian",
+    "name": "Barbarian Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "location": "Robred Dropoff Cave",
+    "description": "A helmet once worn by the warriors of an ancient warlike tribe from the Faron region."
+  },
+  {
+    "id": "barbarian-armor",
+    "set": "Barbarian",
+    "name": "Barbarian Armor",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Armor once favored by an ancient warlike tribe from the Faron region. Equipping it boosts your attack power.",
+    "location": "Crenel Hills Cave"
+  },
+  {
+    "id": "barbarian-leg-wraps",
+    "set": "Barbarian",
+    "name": "Barbarian Leg Wraps",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Leg wraps once favored by a warlike tribe. The traditional design bolsters your fighting spirit to raise your strength.",
+    "location": "Walnot Mountain Cave"
+  },
+  {
+    "id": "sand-boots",
+    "set": "Sand Boots",
+    "name": "Sand Boots",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Gerudo artisans modified these boots for life in the desert. The special soles distribute weight evenly so you can maintain your normal movement speed on sand.",
+    "location": "Gerudo Secret Club"
+  },
+  {
+    "id": "lizalfos-mask",
+    "set": "Lizalfos",
+    "name": "Lizalfos Mask",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": " designed to replicate even those goggling eyeballs of the Lizalfos. Equip it to blend in with Lizalfos.",
+    "location": "Kilton's Monster Shop"
+  },
+  {
+    "id": "lynel-mask",
+    "set": "Lynel",
+    "name": "Lynel Mask",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Kilton's handmade Lynel headgear. It's so well crafted it can deceive a real Lynel. Equip it to blend in with Lynels, but don't linger long. Those beasts are smart.",
+    "location": "Kilton's Monster Shop"
+  },
+  {
+    "id": "glide-mask",
+    "set": "Glide",
+    "name": "Glide Mask",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A mask with a wind-resistant design that allows for steadier gliding while the wearer plummets from the sky.",
+    "location": "Valor Island"
+  },
+  {
+    "id": "glide-shirt",
+    "set": "Glide",
+    "name": "Glide Shirt",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "The cloth sewn to this shirt helps it \"catch\" air, increasing the wearer's ability to glide while plummeting from the sky.",
+    "location": "Courage Island"
+  },
+  {
+    "id": "glide-tights",
+    "set": "Glide",
+    "name": "Glide Tights",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "The cloth sewn to these tights allows their wearer to glide more easily as they plummet from the sky.",
+    "location": "Bravery Island"
+  },
+  {
+    "id": "ancient-heros-aspect",
+    "set": "Ancient Hero",
+    "name": "Ancient Hero's Aspect",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "This item is said to contain the spirit of a hero who once saved Hyrule. That hero's aura will envelop the wearer.",
+    "location": "0453, -0764, 1467"
+  },
+  {
+    "id": "archaic-tunic",
+    "set": "Archaic",
+    "name": "Archaic Tunic",
+    "maxLevel": 0,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Old-fashioned upper-body wear. It's got some holes, but the soft cloth feels good to the touch. It's hard to keep wrinkle-free.",
+    "location": "Great Sky Island"
+  },
+  {
+    "id": "archaic-legwear",
+    "set": "Archaic",
+    "name": "Archaic Legwear",
+    "maxLevel": 0,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Simple, classic legwear. They're well-worn and showing their age, but they've still got a few good years left in them. It can be a bit cumbersome to have to tie the straps. ",
+    "location": "Great Sky Island"
+  },
+  {
+    "id": "archaic-warm-greaves",
+    "set": "Archaic Warm Greaves",
+    "name": "Archaic Warm Greaves",
+    "maxLevel": 0,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Warm greaves believed to be from a very long time ago. Despite the old look, the heat-retaining material makes it pleasantly resistant to cold temperatures.",
+    "location": "Great Sky Island"
+  },
+  {
+    "id": "froggy-hood",
+    "set": "Froggy",
+    "name": "Froggy Hood",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A good hood for a rainy day. The perfectly weighted headband keeps the wearer focus and stabilized, making it easier to climb wet, slippery surfaces.",
+    "location": "Lucky Clover Gazette"
+  },
+  {
+    "id": "froggy-sleeve",
+    "set": "Froggy",
+    "name": "Froggy Sleeve",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "A good sleeve for a rainy day. Small dimples on the fingers act as suction cups, giving good grip on wet, slippery surfaces.",
+    "location": "Lucky Clover Gazette"
+  },
+  {
+    "id": "froggy-leggings",
+    "set": "Froggy",
+    "name": "Froggy Leggings",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Good leggings for a rainy day. The feet are covered in small dimples and treated with an anti-slip substance, giving them great traction on wet, slippery surfaces.",
+    "location": "Lucky Clover Gazette"
+  },
+  {
+    "id": "miners-mask",
+    "set": "Mining",
+    "name": "Miner's Mask",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A mask used for working in darkness. The attached lamps are filled with bioluminescent material to light one's surroundings.",
+    "location": "Abandoned Kara Kara Mine"
+  },
+  {
+    "id": "miners-top",
+    "set": "Mining",
+    "name": "Miner's Top",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "A shirt featuring lamps of various sizes filled with bioluminescent material. Made to help with excavating dark environments.",
+    "location": "Daphnes Canyon Mine"
+  },
+  {
+    "id": "miners-trousers",
+    "set": "Mining",
+    "name": "Miner's Trousers",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "The bioluminescent lamps on these trousers shed light on where you step. They come in handy when walking in darkness.",
+    "location": "Hylian Canyon Mine"
+  },
+  {
+    "id": "ember-headdress",
+    "set": "Ember",
+    "name": "Ember Headdress",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Used in ancient rituals, this item is made of heat-absorbing cloth that produces flame in high-temperature environments.",
+    "location": "YunoboCo HQ South Cave"
+  },
+  {
+    "id": "ember-shirt",
+    "set": "Ember",
+    "name": "Ember Shirt",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Used in ancient rituals, this item is made of heat-absorbing cloth that produces flame in high-temperature environments.",
+    "location": "Goronbi River Cave"
+  },
+  {
+    "id": "ember-trousers",
+    "set": "Ember",
+    "name": "Ember Trousers",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Used in ancient rituals, this item is made of heat-absorbing cloth that produces flame in high-temperature environments.",
+    "location": "Goronbi River Cave"
+  },
+  {
+    "id": "charged-headdress",
+    "set": "Charged",
+    "name": "Charged Headdress",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Used in ancient rituals and made from conductive material, this item produces electricity during thunderstorms.",
+    "location": "0968, -2800, 0007"
+  },
+  {
+    "id": "charged-shirt",
+    "set": "Charged",
+    "name": "Charged Shirt",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Used in ancient rituals and made from conductive material, this item produces electricity during thunderstorms.",
+    "location": "0968, -2531, 0008"
+  },
+  {
+    "id": "charged-trousers",
+    "set": "Charged",
+    "name": "Charged Trousers",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Used in ancient rituals and made from conductive material, this item produces electricity during thunderstorms.",
+    "location": "0980, -2693, 0007"
+  },
+  {
+    "id": "frostbite-headdress",
+    "set": "Frostbite",
+    "name": "Frostbite Headdress",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Used in ancient rituals, this item's cold-absorbing cloth produces frost in low-temperature environments.",
+    "location": "-3923, 2843, -0016"
+  },
+  {
+    "id": "frostbite-shirt",
+    "set": "Frostbite",
+    "name": "Frostbite Shirt",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Used in ancient rituals, this item's cold-absorbing cloth produces frost in low-temperature environments.",
+    "location": "-2991, 1650, 0200"
+  },
+  {
+    "id": "frostbite-trousers",
+    "set": "Frostbite",
+    "name": "Frostbite Trousers",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Used in ancient rituals, this item's cold-absorbing cloth produces frost in low-temperature environments.",
+    "location": "-2887, 2503, 0393"
+  },
+  {
+    "id": "cece-hat",
+    "set": "Cece",
+    "name": "Cece Hat",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "An avant-garde masterpiece designed by Cece. Guaranteed to make the fashionistas heads turn.",
+    "location": "Hateno Village"
+  },
+  {
+    "id": "mystic-headpiece",
+    "set": "Mystic",
+    "name": "Mystic Headpiece",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Headgear acquired in exchange for Bubbul gems. Made with prayers spirits, it protects the wear allowing them to lose rupees instead of health when hit.",
+    "location": "Kilton's Monster Shop"
+  },
+  {
+    "id": "mystic-robe",
+    "set": "Mystic",
+    "name": "Mystic Robe",
+    "maxLevel": 0,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "A robe acquired in exchange for Bubbul gems. Made with prayers spirits, it protects the wear allowing them to lose rupees instead of health when hit.",
+    "location": "Kilton's Monster Shop"
+  },
+  {
+    "id": "mystic-trousers",
+    "set": "Mystic",
+    "name": "Mystic Trousers",
+    "maxLevel": 0,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Trousers acquired in exchange for Bubbul gems. Made with prayers spirits, it protects the wear allowing them to lose rupees instead of health when hit.",
+    "location": "Kilton's Monster Shop"
+  },
+  {
+    "id": "zonaite-helm",
+    "set": "Zonaite",
+    "name": "Zonaite Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A helmet forged of zonaite. The magic infused into it during its production grants its wearer improved energy efficiency for Zonai devices.",
+    "location": "-3593, 0942, 1731"
+  },
+  {
+    "id": "zonaite-waistguard",
+    "set": "Zonaite",
+    "name": "Zonaite Waistguard",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "A waistguard made from zonait hile wearing it, you'll reap the benefit of its imbued magic and improve the effieiency of Zonai devices.",
+    "location": "2375, -1775, 1489"
+  },
+  {
+    "id": "zonaite-shin-guards",
+    "set": "Zonaite",
+    "name": "Zonaite Shin Guards",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Shin guards forged of zonaite. Wearing them awakens the magic of their creators, improving efficiency for Zonai devices.",
+    "location": "4467, 2028, 1413"
+  },
+  {
+    "id": "mask-of-awakening",
+    "set": "Awakening",
+    "name": "Mask of Awakening",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Legend says this mask resembles a hero who explored a mysterious place that one could visit but not leave.",
+    "location": "-2307, 0854, 0113"
+  },
+  {
+    "id": "tunic-of-awakening",
+    "set": "Awakening",
+    "name": "Tunic of Awakening",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Legend says this armor was worn by a hero who explored a mysterious area that one could visit but not leave.",
+    "location": "1415, 2106, 0287"
+  },
+  {
+    "id": "trousers-of-awakening",
+    "set": "Awakening",
+    "name": "Trousers of Awakening",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Legend says these trousers were worn by a hero who explored a mysterious island that one could visit but not leave.",
+    "location": "-1173, -1310, 0046"
+  },
+  {
+    "id": "champions-leathers",
+    "set": "Champion's",
+    "name": "Champion's Leathers",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "This garment, worn by those in good standing with Hyrule royalty, has been reworked with the latest improvements, such a new shoulder guard.",
+    "location": "Hyrule Castle Sanctum"
+  },
+  {
+    "id": "horriblin-mask",
+    "set": "Horriblin",
+    "name": "Horriblin Mask",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Kilton's handmade Horriblin headgear. The big nose and smiley mouth look just like those of the real monster... Equip it to blend in with Horriblins.'",
+    "location": "Kilton's Monster Shop"
+  },
+  {
+    "id": "hood-of-the-depths",
+    "set": "Depths",
+    "name": "Hood of the Depths",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A hood acquired by offering Poes to a strange statue found in the Depths. It offers some resistance to gloom.",
+    "location": "Bargainer Statue"
+  },
+  {
+    "id": "tunic-of-the-depths",
+    "set": "Depths",
+    "name": "Tunic of the Depths",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "A tunic acquired by offering Poes to a strange statue found in the Depths. It offers some resistance to gloom.",
+    "location": "Bargainer Statue"
+  },
+  {
+    "id": "gaiters-of-the-depths",
+    "set": "Depths",
+    "name": "Gaiters of the Depths",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Gaiters acquired by offering Poes to a strange statue found in the Depths. They offer some resistance to gloom.",
+    "location": "Bargainer Statue"
+  },
+  {
+    "id": "well-worn-hair-band",
+    "set": "Well-worn Hair Band",
+    "name": "Well-worn Hair Band",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "An old, worn, simple hair band. Its color has long faded, but it still has some life left in it. Wearing it in your hair makes you sentimental about times past.",
+    "location": "Link's House"
+  },
+  {
+    "id": "tunic-of-memories",
+    "set": "Memories",
+    "name": "Tunic of Memories",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "In ancient Hyrule, this garment could only be worn by one who had earned the respect of the royal family. It's dyed in vibrant blue.",
+    "location": "Bargainer Statue"
+  },
+  {
+    "id": "yiga-mask",
+    "set": "Yiga",
+    "name": "Yiga Mask",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A mask supplied to members of the Yiga Clan. It covers the entire face, keeping even breath sounds to a minimum. Perfect sneaking, but lacks protection due to its light material.",
+    "location": "Yiga Clan Hideout"
+  },
+  {
+    "id": "yiga-armor",
+    "set": "Yiga",
+    "name": "Yiga Armor",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Armor supplied to members of the Yiga Clan. Defensive parts are minimized for silence, so it's lacking in protection.",
+    "location": "Yiga Clan Hideout"
+  },
+  {
+    "id": "yiga-tights",
+    "set": "Yiga",
+    "name": "Yiga Tights",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Tights supplied to members of the Yiga Clan. The soft material on the soles silences footsteps, but protection is lacking due to the light material.",
+    "location": "Yiga Clan Hideout"
+  },
+  {
+    "id": "snow-boots",
+    "set": "Snow Boots",
+    "name": "Snow Boots",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Boots designed for hiking up snowy mountains. They evenly distribute your body weight so you can maintain your normal movement speed on deep snow.",
+    "location": "Gerudo Secret Club"
+  },
+  {
+    "id": "dark-hood",
+    "set": "Dark",
+    "name": "Dark Hood",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Headwear obtained by offering Poes to a strange statue. It resembles the head of a monster born of shadow, and its eyes glow eerie red in the dark.",
+    "location": "Bargainer Statue"
+  },
+  {
+    "id": "dark-tunic",
+    "set": "Dark",
+    "name": "Dark Tunic",
+    "maxLevel": 0,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Trousers obtained by offering Poes to a strange statue. They look ordinary at first, but on closer inspection, they resemble the legs of a monster born of shadow.",
+    "location": "Bargainer Statue"
+  },
+  {
+    "id": "dark-trousers",
+    "set": "Dark",
+    "name": "Dark Trousers",
+    "maxLevel": 0,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "A tunic obtained by offering Poes to a strange statue. It's a spurious replica of the green outfit once worn by a legendary hero.",
+    "location": "Bargainer Statue"
+  },
+  {
+    "id": "phantom-helmet",
+    "set": "Phantom",
+    "name": "Phantom Helmet",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Myths abound about armored phantoms that terrorized brave heroes. This helmet looks just like the ones they supposedly wore. It's a rather rare find.",
+    "location": "Puffer Beach Overhead Cave"
+  },
+  {
+    "id": "phantom-armor",
+    "set": "Phantom",
+    "name": "Phantom Armor",
+    "maxLevel": 0,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Myths abound about armored phantoms that terrorized brave heroes. This piece looks just like the armor they allegedly wore. It's a rather rare find.",
+    "location": "Tamio River Downstream Cave"
+  },
+  {
+    "id": "phantom-greaves",
+    "set": "Phantom",
+    "name": "Phantom Greaves",
+    "maxLevel": 0,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Myths abound about armored phantoms that terrorized brave heroes. These greaves look just like the ones they supposedly wore. It's a rather rare find.",
+    "location": "Ancient Altar Ruins"
+  },
+  {
+    "id": "majoras-mask",
+    "set": "Majora's Mask",
+    "name": "Majora's Mask",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "An eerie mask passed down from ancient times. Wearing it makes it harder for certain enemies to spot you. It's a rather rare find.",
+    "location": "Floating Coliseum"
+  },
+  {
+    "id": "midnas-helmet",
+    "set": "Midna's Helmet",
+    "name": "Midna's Helmet",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A helmet much like the one Midna wore when she fought alongside the Hero of Twilight. It's a rather rare find.",
+    "location": "4562, -3620, -0471"
+  },
+  {
+    "id": "tingles-hood",
+    "set": "Tingle",
+    "name": "Tingle's Hood",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "There was once a man who claimed to be the very reincarnation of a fairy. He treasured this hood, and so will you. After all, it's a rather rare find. Kooloo-Limpah.",
+    "location": "Eighth Heroine Cave"
+  },
+  {
+    "id": "tingles-shirt",
+    "set": "Tingle",
+    "name": "Tingle's Shirt",
+    "maxLevel": 0,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "There was once a man who claimed to be the very reincarnation of a fairy. He treasured this hood, and so will you. After all, it's a rather rare find. Kooloo-Limpah.",
+    "location": "Dueling Peaks South Cave"
+  },
+  {
+    "id": "tingles-tights",
+    "set": "Tingle",
+    "name": "Tingle's Tights",
+    "maxLevel": 0,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "There was once a man who claimed to be the very reincarnation of a fairy. He treasured this hood, and so will you. After all, it's a rather rare find. Kooloo-Limpah.",
+    "location": "Cape Cales Cliffbase Cave"
+  },
+  {
+    "id": "island-lobster-shirt",
+    "set": "Island Lobster",
+    "name": "Island Lobster Shirt",
+    "maxLevel": 0,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "A soft, comfortable shirt traditional to a southern island. It's made of breathable fabric, so it's well suited to warm regions.",
+    "location": "2892, -3433, 0000"
+  },
+  {
+    "id": "korok-mask",
+    "set": "Korok",
+    "name": "Korok Mask",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A mask inspired by those fun-loving Koroks. It shakes when one is nearby. It's a rather rare find.",
+    "location": "Forest Coliseum"
+  },
+  {
+    "id": "ravios-hood",
+    "set": "Ravio's Hood",
+    "name": "Ravio's Hood",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "The hood of a traveling merchant who had a bracelet that could turn the wearer into a painting. Wearing it increases your sideways climbing speed. It's a rather rare find.",
+    "location": "Secluded Coliseum"
+  },
+  {
+    "id": "zants-helmet",
+    "set": "Zant's Helmet",
+    "name": "Zant's Helmet",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "The ruthless Usurper King of the Twilight Realm wore a helmet much like this one. It's a rather rare find.",
+    "location": "Scorching Coliseum"
+  },
+  {
+    "id": "royal-guard-cap",
+    "set": "Royal Guard",
+    "name": "Royal Guard Cap",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "This spiffy cap is part of the uniform for Hyrule's royal guard. It's lighter than it looks and easy to move around in.",
+    "location": "Princess Zelda's Room"
+  },
+  {
+    "id": "royal-guard-uniform",
+    "set": "Royal Guard",
+    "name": "Royal Guard Uniform",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "The dignified uniform for Hyrule's royal guard. It's made of high-quality materials and is both stylish and practical.",
+    "location": "Guard Chamber"
+  },
+  {
+    "id": "royal-guard-boots",
+    "set": "Royal Guard",
+    "name": "Royal Guard Boots",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "These boots are part of the uniform for Hyrule's royal guard. They're a fine blend of style and function.",
+    "location": "King's Study"
+  },
+  {
+    "id": "evil-spirit-mask",
+    "set": "Evil Spirit",
+    "name": "Evil Spirit Mask",
+    "maxLevel": 0,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "Some believe this eerie mask is inspired by a malevolent entity. It's a rather rare find.",
+    "location": "-1793, -3462, -0522"
+  },
+  {
+    "id": "evil-spirit-armor",
+    "set": "Evil Spirit",
+    "name": "Evil Spirit Armor",
+    "maxLevel": 0,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Some believe this armor is inspired by a malevolent entity. It's a rather rare find.",
+    "location": "Lomei Labrynth"
+  },
+  {
+    "id": "evil-spirit-greaves",
+    "set": "Evil Spirit",
+    "name": "Evil Spirit Greaves",
+    "maxLevel": 0,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Some believe these greaves are inspired by a malevolent entity. It's a rather rare find.",
+    "location": "-0820, 3534, -0682"
+  },
+  {
+    "id": "vah-ruta-divine-helm",
+    "set": "Vah Ruta",
+    "name": "Vah Ruta Divine Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A helm worn by a warrior who protected the Zora in a time beyond memory. It's said to deepen the bond with the Zora when worn by a Hylian.",
+    "location": "3242, 0375, 0078"
+  },
+  {
+    "id": "vah-medoh-divine-helm",
+    "set": "Vah Medoh",
+    "name": "Vah Medoh Divine Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A helm worn by a warrior who protected the Rito in a time beyond memory. It's said to deepen the bond with the Rito when worn by a Hylian.",
+    "location": "-3960, 3267, 0140"
+  },
+  {
+    "id": "vah-rudania-divine-helm",
+    "set": "Vah Rudania",
+    "name": "Vah Rudania Divine Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A helm worn by a warrior who protected the Gorons in a time beyond memory. It's said to deepen the bond with the Rito when worn by a Hylian.",
+    "location": "Lizard's Burrow Cave"
+  },
+  {
+    "id": "vah-naboris-divine-helm",
+    "set": "Vah Naboris",
+    "name": "Vah Naboris Divine Helm",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A helm worn by a warrior who protected the Gerudo in a time beyond memory. It's said to deepen the bond with the Rito when worn by a Hylian.",
+    "location": "West Gerudo Underground Ruins"
+  },
+  {
+    "id": "cap-of-time",
+    "set": "Time",
+    "name": "Cap of Time",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "According to legend, this cap was once worn by a hero who traveled through time. A truly timeless item perfect for kids and adults alike!",
+    "location": "-4079, 2799, -0450"
+  },
+  {
+    "id": "tunic-of-time",
+    "set": "Time",
+    "name": "Tunic of Time",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Legend has it that this armor was once worn by a hero who traveled through time. Strangely, its special design is fitted for children and adults alike.",
+    "location": "-1999, 1307, -0715"
+  },
+  {
+    "id": "trousers-of-time",
+    "set": "Time",
+    "name": "Trousers of Time",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Legends say these trousers were once worn by a hero who traveled through time. They were originally made by a people who made their home in the forest.",
+    "location": "-417, -0697, -1121"
+  },
+  {
+    "id": "cap-of-the-wind",
+    "set": "Wind",
+    "name": "Cap of the Wind",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "According to legend, this cap was treasured by a hero who travelled the Great Sea. It flaps quite serenely in a soft sea breeze.",
+    "location": "4707, 1307, 0104"
+  },
+  {
+    "id": "tunic-of-the-wind",
+    "set": "Wind",
+    "name": "Tunic of the Wind",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Legend has it this armor was once cherished by a hero who sailed the Great Sea. It's said to have been a gift from his grandmother.",
+    "location": "-3791, 1343, -0682"
+  },
+  {
+    "id": "trousers-of-the-wind",
+    "set": "Wind",
+    "name": "Trousers of the Wind",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Legends say these trousers were cherished by a hero who sailed the Great Sea. They're water-resistant, naturally.",
+    "location": "3794, -3618, -0446"
+  },
+  {
+    "id": "cap-of-twilight",
+    "set": "Twilight",
+    "name": "Cap of Twilight",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "According to legend, this cap was worn by a hero who battled the creatures of twilight.",
+    "location": "0263, 3121, -0623"
+  },
+  {
+    "id": "tunic-of-twilight",
+    "set": "Twilight",
+    "name": "Tunic of Twilight",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Legend has it this armor was worn by a hero who battled monsters of twilight. It looks like some wolf hair is still stuck to it...",
+    "location": "4517, 2169, -0454"
+  },
+  {
+    "id": "trousers-of-twilight",
+    "set": "Twilight",
+    "name": "Trousers of Twilight",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Legends say these trousers were once worn by a hero who battled the beasts of twilight.",
+    "location": "3318, 1506, -0856"
+  },
+  {
+    "id": "cap-of-the-sky",
+    "set": "Sky",
+    "name": "Cap of the Sky",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "According to legend, this cap was once worn by a hero who appeared from the sky riding a mighty bird.",
+    "location": "3822, -1986, -0632"
+  },
+  {
+    "id": "tunic-of-the-sky",
+    "set": "Sky",
+    "name": "Tunic of the Sky",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Legend has it this armor was worn by a hero who rode a mighty bird. It was apparently presented after a ceremonious event.",
+    "location": "1022, 1408, -0543"
+  },
+  {
+    "id": "trousers-of-the-sky",
+    "set": "Sky",
+    "name": "Trousers of the Sky",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Legends say these trousers were once worn by a hero who appeared from the sky riding a mighty bird.",
+    "location": "Crenel Canyon Mine"
+  },
+  {
+    "id": "shieks-mask",
+    "set": "Shiek's Mask",
+    "name": "Shiek's Mask",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A mask said to have been worn by a Sheikah who saved a time-traveling hero. Made from the finest of Sheikah stealth fabrics, it is the final word in undercover gear",
+    "location": "Desert Coliseum"
+  },
+  {
+    "id": "fierce-deity-mask",
+    "set": "Fierce Deity",
+    "name": "Fierce Deity Mask",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "A mask worn by a hero from a world in which the moon was falling, granting godlike power.",
+    "location": "Skull Lake Cave"
+  },
+  {
+    "id": "fierce-deity-armor",
+    "set": "Fierce Deity",
+    "name": "Fierce Deity Armor",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Armor worn by the hero from a world in which the moon threatened to fall. Wearing it provides godlike power.",
+    "location": "Citadel Ruins"
+  },
+  {
+    "id": "fierce-deity-boots",
+    "set": "Fierce Deity",
+    "name": "Fierce Deity Boots",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Boots worn by a hero from a world in which the moon threatened to fall. Wearing them provides godlike power.",
+    "location": "Ancient Tree Stump"
+  },
+  {
+    "id": "cap-of-the-hero",
+    "set": "Hero",
+    "name": "Cap of the Hero",
+    "maxLevel": 4,
+    "slot": "head",
+    "iconUrl": "",
+    "description": "According to legend, this cap was once treasures by an ancient hero. It's quite the simple cap, yet there is something about it that's just so appealing…",
+    "location": "8-bit Link Amiibo"
+  },
+  {
+    "id": "tunic-of-the-hero",
+    "set": "Hero",
+    "name": "Tunic of the Hero",
+    "maxLevel": 4,
+    "slot": "chest",
+    "iconUrl": "",
+    "description": "Legend has it this armor was once cherished by a hero from ancient times. Its design is rather simple, but it's such a traditional look.",
+    "location": "8-bit Link Amiibo"
+  },
+  {
+    "id": "trousers-of-the-hero",
+    "set": "Hero",
+    "name": "Trousers of the Hero",
+    "maxLevel": 4,
+    "slot": "legs",
+    "iconUrl": "",
+    "description": "Legends say these trousers were favoured by a hero from an ancient age. Their simple design is a rare aesthetic these days, but there's something classic about them.",
+    "location": "8-bit Link Amiibo"
+  }
+]
