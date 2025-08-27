@@ -1,5 +1,11 @@
 import Store from 'electron-store';
 import { z } from 'zod';
+import armorPieces from '../../data/armor_pieces.json';
+
+//build a lookup of maxLevel by armorId once
+const maxLevelByArmor: Record<string, number> = Object.fromEntries(
+  (armorPieces as Array<{ id: string, maxLevel: number }>).map(p => [p.id, p.maxLevel])
+);
 
 /**
  * Zod schema = runtime validator + type generator
@@ -10,19 +16,21 @@ export const OwnedStateSchema = z.object({
   //z.coerce.number() lets "5" (string) become 5 (number) during import
   materials: z.record(z.string(), z.coerce.number().int().min(0)).default({}),
   //armorLevels: {[armorId: string]: 0 | 1 | 2 | 3 | 4}
-  armorLevels: z.record(z.string(), z.coerce.number().int().min(0).max(4)).default({})
+  armorLevels: z.record(z.string(), z.coerce.number().int().min(0).max(4)).default({}),
+  rupees: z.coerce.number().int().min(0).default(0)
 });
 
 /** TypeScript type inferred from Zod schema */
 export type OwnedState = z.infer<typeof OwnedStateSchema>
 
 /** Default empty state */
-const DEFAULT_STATE: OwnedState = { materials: {}, armorLevels: {} };
+const DEFAULT_STATE: OwnedState = { materials: {}, armorLevels: {}, rupees: 0 };
 
 //typed store to help TS know the shape we'll call get/set
 type StoreShape = {
   materials: Record<string, number>,
-  armorLevels: Record<string, number> //zod will guarantee our specific number set
+  armorLevels: Record<string, number>, //zod will guarantee our specific number set
+  rupees: number
 };
 
 /**
@@ -35,16 +43,53 @@ const store = new Store<StoreShape>({
   migrations: {
     '1.0.0': (s) => {
       const current = {
-        materials: s.get('materials', {}) as StoreShape['materials'],
-        armorLevels: s.get('armorLevels', {}) as StoreShape['armorLevels']
+        materials: s.get('materials', {}),
+        armorLevels: s.get('armorLevels', {}),
       };
-      const parsed = OwnedStateSchema.safeParse(current);
-      if (parsed.success) {
-        s.set(parsed.data); //set(object) writes both keys atomically
-      } else {
-        s.clear();
-        s.set(DEFAULT_STATE);
+      const parsed = OwnedStateSchema.safeParse({ ...current, rupees: 0 });
+      s.clear();
+      s.set(parsed.success ? parsed.data : DEFAULT_STATE);
+    },
+    '1.1.0': (s) => {
+      const materials = s.get('materials', {});
+      const armorLevels = s.get('armorLevels', {});
+      const rupees = s.get('rupees') ?? 0;
+      const parsed = OwnedStateSchema.safeParse({ materials, armorLevels, rupees });
+      s.clear();
+      s.set(parsed.success ? parsed.data : DEFAULT_STATE);
+    },
+    '1.2.0': (s) => {
+      const materials = s.get('materials', {}) as Record<string, number>;
+      const rupees = (s.get('rupees') ?? 0) as number;
+      const currentLevels = s.get('armorLevels', {}) as Record<string, number>;
+
+      const nextLevels: Record<string, number> = {};
+
+      //sanitize existing entries
+      for (const [armorId, level] of Object.entries(currentLevels)) {
+        const raw = Number(level);
+        const int = Number.isFinite(raw) ? Math.trunc(raw) : 0;
+        const max = maxLevelByArmor[armorId];
+        if (typeof max === 'number') {
+          //enforce 0..max, skip unknown ids
+          nextLevels[armorId] = int < 0 ? 0 : int > max ? max : int;
+        }
       }
+
+      //add missing armor ids from catalog at level 0
+      for (const armorId of Object.keys(maxLevelByArmor)) {
+        if (!(armorId in nextLevels)) nextLevels[armorId] = 0;
+      }
+
+      //validate and persist atomically
+      const parsed = OwnedStateSchema.safeParse({
+        materials,
+        armorLevels: nextLevels,
+        rupees
+      });
+
+      s.clear();
+      s.set(parsed.success ? parsed.data : DEFAULT_STATE);
     }
   }
 });
@@ -73,10 +118,23 @@ export const storage = {
       armorLevels: {
         ...store.get('armorLevels', {}),
         ...(patch.armorLevels ?? {})
-      }
+      },
+      rupees: (store.get('rupees') ?? 0) + (patch.rupees ?? 0)
     };
     const next = OwnedStateSchema.parse(merged);
     store.set(next);
+    return next;
+  },
+
+  //replace only rupees value
+  setRupees(amount: number): OwnedState {
+    const current = this.getState();
+    const next = OwnedStateSchema.parse({
+      materials: current.materials,
+      armorLevels: current.armorLevels,
+      rupees: amount //zod will coerce and enforce non-negative int
+    });
+    store.set(next); //atomic wrhite
     return next;
   },
 
@@ -91,5 +149,16 @@ export const storage = {
     const next = OwnedStateSchema.parse(raw); //validate & coerce
     store.set(next);
     return next;
+  },
+
+  /** reset to catalog defaults (armor 0 for all known ids, empty materials, rupees 0) */
+  resetToDefaults(): OwnedState {
+    //build a seeded armorLevels map from catalog
+    const seededLevels: Record<string, number> = Object.fromEntries(armorPieces.map(p => [p.id, 0]));
+    const next: OwnedState = { materials: {}, armorLevels: seededLevels, rupees: 0 };
+    const valid = OwnedStateSchema.parse(next);
+    store.clear();
+    store.set(valid);
+    return valid;
   }
 };

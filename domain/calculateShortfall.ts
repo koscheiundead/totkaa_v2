@@ -8,7 +8,6 @@ const maxLevelByArmor: Record<ArmorId, Level> = Object.fromEntries(
 );
 
 export function calculateShortfall(
-  rupeesInWallet: number,
   owned: OwnedState,
   costs: UpgradeCost[],
   targetLevels?: Partial<Record<ArmorId, Level>>
@@ -22,6 +21,7 @@ export function calculateShortfall(
   //prepare quick-access structures
   const currentLevels = owned.armorLevels;
   const materialsOwned = owned.materials;
+  const rupeesInWallet = owned.rupees;
 
   //decide target level for each armor piece we know about
   const effectiveTarget: Partial<Record<ArmorId, Level>> = {};
@@ -29,7 +29,7 @@ export function calculateShortfall(
   for (const piece of armorPieces as Array<{ id: ArmorId; maxLevel: Level }>) {
     const armorId = piece.id;
     const maxLevel = maxLevelByArmor[armorId];
-    const current = currentLevels[armorId] ?? 0;
+    const current = currentLevels?.[armorId] ?? 0;
     const requested = targetLevels ? (targetLevels[armorId] ?? maxLevel) : maxLevel; // check for a target or assign our max level
     //we only need to calculate shortfall, only matters if levelling up
     if (requested >= current) {
