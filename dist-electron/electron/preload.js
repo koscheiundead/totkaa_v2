@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const electron_1 = require("electron");
-console.log("preloaded");
 //expose an API into renderer
 //anything here can be called by Vue via `window.api`
 electron_1.contextBridge.exposeInMainWorld('api', {

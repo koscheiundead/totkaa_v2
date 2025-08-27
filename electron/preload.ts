@@ -1,5 +1,5 @@
 import { contextBridge, ipcRenderer } from "electron";
-console.log("preloaded");
+
 //expose an API into renderer
 //anything here can be called by Vue via `window.api`
 contextBridge.exposeInMainWorld('api', {
