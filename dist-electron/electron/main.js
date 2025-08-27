@@ -21,19 +21,23 @@ async function createWindow() {
             preload: path_1.default.join(__dirname, "preload.js"),
         },
     });
-    if (isDev) {
-        //in dev vite serves https://localhost:5173
-        await win.loadURL("http://localhost:5173");
-        win.webContents.openDevTools({ mode: "detach" }); //separate devtools window
+    try {
+        if (isDev) {
+            //in dev vite serves https://localhost:5173
+            await win.loadURL("http://localhost:5173");
+        }
+        else {
+            //in prod, vite built static files to dist-electron/ui
+            await win.loadFile(path_1.default.join(__dirname, "../ui/index.html"));
+        }
     }
-    else {
-        //in prod, vite built static files to dist-electron/ui
+    catch {
         await win.loadFile(path_1.default.join(__dirname, "../ui/index.html"));
     }
+    win.webContents.openDevTools({ mode: "detach" }); //separate devtools window
 }
 //electron lifecycle
 electron_1.app.whenReady().then(createWindow);
-console.log(electron_1.app);
 electron_1.app.on("window-all-closed", () => {
     //on macOS apps usually keep running until cmd+q
     if (process.platform !== "darwin")

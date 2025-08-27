@@ -6,5 +6,6 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   plugins: [vue(), tsconfigPaths()],
   base: "", //make built paths relative so electron can load files!
-  server: { port: 5713, strictPort: true, open: false },
+  server: { port: 5173, strictPort: true, open: false },
+  clearScreen: false
 });

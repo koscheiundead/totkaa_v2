@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently -k -r -s first \"npm run --prefix ui dev\" \"npm run dev:electron\"",
+    "dev": "concurrently -k -r -s first \"npm run --prefix ui dev\" \"npm run dev:electron\" --names VITE,ELEC --prefix-colors cyan,magenta",
     "dev:electron": "concurrently -k -r \"npm run build:electron:watch\" \"npm run start:electron\"",
+    "start:debug": "wait-on --log --timeout 60000 http-get://127.0.0.1:5173 dist-electron/electron/preload.js dist-electron/electron/main.js && electron dist-electron/electron/main.js",
     "start:electron": "wait-on http://localhost:5173 dist-electron/electron/preload.js dist-electron/electron/main.js && electron dist-electron/electron/main.js",
     "build": "npm run --prefix ui build && npm run build:electron",
     "build:electron": "tsc -p electron/tsconfig.json && cp -r ui/dist dist-electron/ui || true",
